@@ -1,0 +1,16 @@
+CHANGED,C:\Users\Rodrigo\Desktop\Qira\Qira Portaria\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\qira\portaria\R$layout$override.class
+CHANGED,C:\Users\Rodrigo\Desktop\Qira\Qira Portaria\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\android\support\design\R$drawable$override.class
+CHANGED,C:\Users\Rodrigo\Desktop\Qira\Qira Portaria\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\qira\portaria\R$styleable$override.class
+CHANGED,C:\Users\Rodrigo\Desktop\Qira\Qira Portaria\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\qira\portaria\R$menu$override.class
+CHANGED,C:\Users\Rodrigo\Desktop\Qira\Qira Portaria\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\qira\portaria\R$override.class
+CHANGED,C:\Users\Rodrigo\Desktop\Qira\Qira Portaria\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\qira\portaria\IncomingCallReceiver$2$override.class
+CHANGED,C:\Users\Rodrigo\Desktop\Qira\Qira Portaria\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\qira\portaria\R$style$override.class
+CHANGED,C:\Users\Rodrigo\Desktop\Qira\Qira Portaria\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\android\tools\fd\runtime\AppPatchesLoaderImpl.class
+CHANGED,C:\Users\Rodrigo\Desktop\Qira\Qira Portaria\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\qira\portaria\R$integer$override.class
+CHANGED,C:\Users\Rodrigo\Desktop\Qira\Qira Portaria\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\qira\portaria\R$xml$override.class
+CHANGED,C:\Users\Rodrigo\Desktop\Qira\Qira Portaria\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\qira\portaria\IncomingCallReceiver$override.class
+CHANGED,C:\Users\Rodrigo\Desktop\Qira\Qira Portaria\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\qira\portaria\R$id$override.class
+CHANGED,C:\Users\Rodrigo\Desktop\Qira\Qira Portaria\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\android\support\v7\appcompat\R$drawable$override.class
+CHANGED,C:\Users\Rodrigo\Desktop\Qira\Qira Portaria\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\qira\portaria\R$drawable$override.class
+CHANGED,C:\Users\Rodrigo\Desktop\Qira\Qira Portaria\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\qira\portaria\IncomingCallReceiver$1$override.class
+CHANGED,C:\Users\Rodrigo\Desktop\Qira\Qira Portaria\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\qira\portaria\R$string$override.class

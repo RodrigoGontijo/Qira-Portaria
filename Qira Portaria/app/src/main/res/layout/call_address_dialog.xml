@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/black"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/image_sip"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="2dp"/>
+
+
+    <TextView
+        android:id="@+id/calladdress_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/image_sip"
+        android:text="@string/contactAddress"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+    <EditText
+        android:id="@+id/calladdress_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:gravity="fill_horizontal"
+        android:inputType="text"
+        android:scrollHorizontally="true"
+        android:layout_below="@+id/image_sip"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/dialogButtonCall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/calladdress_edit"
+        android:text=" Call " />
+
+</RelativeLayout>
