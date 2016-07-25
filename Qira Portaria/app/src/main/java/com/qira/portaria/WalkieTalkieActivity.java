@@ -372,7 +372,8 @@ public class WalkieTalkieActivity extends AppCompatActivity implements View.OnTo
         company1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                sipAddress = "";
+                callReceiver.kill();
+                sipAddress = "8201@172.16.100.251:5566";
                 initiateCall();
             }
         });
@@ -382,7 +383,8 @@ public class WalkieTalkieActivity extends AppCompatActivity implements View.OnTo
         company2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                sipAddress = "";
+                callReceiver.kill();
+                sipAddress = "8202@172.16.100.251:5566";
                 initiateCall();
             }
         });
@@ -392,7 +394,8 @@ public class WalkieTalkieActivity extends AppCompatActivity implements View.OnTo
         company3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                sipAddress = "";
+                callReceiver.kill();
+                sipAddress = "8203@172.16.100.251:5566";
                 initiateCall();
             }
         });
@@ -402,7 +405,8 @@ public class WalkieTalkieActivity extends AppCompatActivity implements View.OnTo
         company4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                sipAddress = "";
+                callReceiver.kill();
+                sipAddress = "8204@172.16.100.251:5566";
                 initiateCall();
             }
         });
@@ -412,7 +416,8 @@ public class WalkieTalkieActivity extends AppCompatActivity implements View.OnTo
         company5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                sipAddress = "";
+                callReceiver.kill();
+                sipAddress = "8205@172.16.100.251:5566";
                 initiateCall();
             }
         });
@@ -421,7 +426,8 @@ public class WalkieTalkieActivity extends AppCompatActivity implements View.OnTo
         company6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                sipAddress = "";
+                callReceiver.kill();
+                sipAddress = "8206@172.16.100.251:5566";
                 initiateCall();
             }
         });
