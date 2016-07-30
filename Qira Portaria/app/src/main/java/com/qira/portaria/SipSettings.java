@@ -42,8 +42,7 @@ public class SipSettings extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         sharedPref = getSharedPreferences("settings", MODE_PRIVATE);
         setContentView(com.qira.portaria.R.layout.sip_settings);
-        Toolbar toolbar = (Toolbar) findViewById(com.qira.portaria.R.id.toolbar);
-        setSupportActionBar(toolbar);
+
 
         user = (EditText) findViewById(com.qira.portaria.R.id.sip_username);
         password = (EditText) findViewById(com.qira.portaria.R.id.sip_password);

@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/nauweb"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="4dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:background="@drawable/buttton_border">
+
+    <RelativeLayout
+        android:layout_width="40dp"
+        android:layout_height="41dp"
+        android:layout_centerVertical="true"
+        android:background="@drawable/circle_border">
+
+        <View
+            android:id="@+id/circle"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/circle_button" />
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/room1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="75dp"
+        android:includeFontPadding="false"
+        android:text="SALA 02"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/room1"
+        android:layout_marginTop="22dp"
+        android:paddingBottom="2dp"
+        android:text="NAUWEB"
+        android:textColor="#FFFFF2"
+        android:textSize="18sp"
+
+        />
+
+
+</RelativeLayout>

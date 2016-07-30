@@ -1,10 +1,6 @@
 [
     {
-        "merged": "C:\\Users\\rodri\\Documents\\QiraPortaria - Portao\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\xml\\preferences.xml",
-        "source": "C:\\Users\\rodri\\Documents\\QiraPortaria - Portao\\Qira Portaria\\app\\src\\main\\res\\xml\\preferences.xml"
-    },
-    {
-        "merged": "C:\\Users\\Rodrigo\\Desktop\\Qira\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\xml\\preferences.xml",
-        "source": "C:\\Users\\Rodrigo\\Desktop\\Qira\\Qira Portaria\\app\\src\\main\\res\\xml\\preferences.xml"
+        "merged": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\xml\\preferences.xml",
+        "source": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\src\\main\\res\\xml\\preferences.xml"
     }
 ]

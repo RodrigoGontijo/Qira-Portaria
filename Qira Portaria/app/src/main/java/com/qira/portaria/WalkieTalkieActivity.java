@@ -18,15 +18,19 @@ package com.qira.portaria;
 
 import android.app.Dialog;
 import android.app.PendingIntent;
+import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.SharedPreferences;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.net.sip.SipAudioCall;
 import android.net.sip.SipException;
 import android.net.sip.SipManager;
 import android.net.sip.SipProfile;
 import android.net.sip.SipRegistrationListener;
 import android.os.Bundle;
+import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
@@ -39,6 +43,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.ImageView;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -56,11 +61,16 @@ public class WalkieTalkieActivity extends AppCompatActivity implements View.OnTo
     public SipAudioCall call = null;
     public Toast toast;
     public IncomingCallReceiver callReceiver;
+    public Handler h = new Handler();
+
+
+    public boolean isRegistred;
 
     private static final int CALL_ADDRESS = 1;
     private static final int SET_AUTH_INFO = 2;
     private static final int UPDATE_SETTINGS_DIALOG = 3;
     private static final int HANG_UP = 4;
+    private static final int DELAY = 30000; //milliseconds
 
 
     @Override
@@ -68,8 +78,8 @@ public class WalkieTalkieActivity extends AppCompatActivity implements View.OnTo
 
         super.onCreate(savedInstanceState);
         setContentView(com.qira.portaria.R.layout.activity_main);
-        Toolbar toolbar = (Toolbar) findViewById(com.qira.portaria.R.id.toolbar);
-        setSupportActionBar(toolbar);
+
+        getWindow().addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
 
         // Set up the intent filter.  This will be used to fire an
@@ -85,7 +95,11 @@ public class WalkieTalkieActivity extends AppCompatActivity implements View.OnTo
         initializeViews();
 
         initializeManager();
+
+        checkIsRegistred();
     }
+
+
 
 
     @Override
@@ -164,14 +178,17 @@ public class WalkieTalkieActivity extends AppCompatActivity implements View.OnTo
 
                 public void onRegistering(String localProfileUri) {
                     updateStatus("Registering with SIP Server...");
+                    isRegistred = false;
                 }
 
                 public void onRegistrationDone(String localProfileUri, long expiryTime) {
                     updateStatus("Ready");
+                    isRegistred = true;
                 }
 
                 public void onRegistrationFailed(String localProfileUri, int errorCode, String errorMessage) {
                     updateStatus("Registration failed.  Please check settings.");
+                    isRegistred = false;
 
                 }
 
@@ -361,12 +378,12 @@ public class WalkieTalkieActivity extends AppCompatActivity implements View.OnTo
     }
 
     private void initializeViews() {
-        ImageButton company1 = (ImageButton) findViewById(com.qira.portaria.R.id.company1);
-        ImageButton company2 = (ImageButton) findViewById(com.qira.portaria.R.id.company2);
-        ImageButton company3 = (ImageButton) findViewById(com.qira.portaria.R.id.company3);
-        ImageButton company4 = (ImageButton) findViewById(com.qira.portaria.R.id.company4);
-        ImageButton company5 = (ImageButton) findViewById(com.qira.portaria.R.id.company5);
-        ImageButton company6 = (ImageButton) findViewById(com.qira.portaria.R.id.company6);
+        RelativeLayout company1 = (RelativeLayout) findViewById(R.id.coletivo);
+        RelativeLayout company2 = (RelativeLayout) findViewById(R.id.nauweb);
+        RelativeLayout company3 = (RelativeLayout) findViewById(R.id.prover);
+        RelativeLayout company4 = (RelativeLayout) findViewById(R.id.coletivo_casa);
+        RelativeLayout company5 = (RelativeLayout) findViewById(R.id.peregrino);
+        RelativeLayout company6 = (RelativeLayout) findViewById(R.id.vivero);
 
         assert company1 != null;
         company1.setOnClickListener(new View.OnClickListener() {
@@ -433,5 +450,29 @@ public class WalkieTalkieActivity extends AppCompatActivity implements View.OnTo
         });
 
 
+    }
+
+    public void checkWifiConnection(){
+        ConnectivityManager connManager = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
+        NetworkInfo mWifi = connManager.getNetworkInfo(ConnectivityManager.TYPE_WIFI);
+
+        if (!mWifi.isConnected()) {
+            Toast.makeText(this,"Check Wifi connection", Toast.LENGTH_SHORT).show();
+
+        }
+    }
+
+    public void checkIsRegistred() {
+
+
+        h.postDelayed(new Runnable(){
+            public void run(){
+                if(!isRegistred) {
+                    initializeLocalProfile();
+                    checkWifiConnection();
+                }
+                h.postDelayed(this, DELAY);
+            }
+        }, DELAY);
     }
 }

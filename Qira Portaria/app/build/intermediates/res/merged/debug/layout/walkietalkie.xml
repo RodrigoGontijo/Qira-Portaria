@@ -1,61 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/mainlayout"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:padding="12dp"
+    android:layout_height="wrap_content"
     android:layout_gravity="center"
+    android:background="@color/colorPrimary"
     android:gravity="center"
-    >
-
-    <ImageButton
-
-        android:id="@+id/company1"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:src="@drawable/logoimaginario"
+    android:orientation="vertical"
+    android:layout_marginTop="36dp"
+   >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Escolha a sala que deseja chamar"
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@android:color/white"
         />
 
+    <include layout="@layout/button_one"/>
+    <include layout="@layout/button_two"/>
+    <include layout="@layout/button_three"/>
+    <include layout="@layout/button_four"/>
+    <include layout="@layout/button_five"/>
+    <include layout="@layout/button_six"/>
 
-    <ImageButton
-        android:id="@+id/company2"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:layout_toRightOf="@id/company1"
-        android:src="@drawable/nauweb" />
 
-    <ImageButton
-        android:id="@+id/company3"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:layout_below="@id/company1"
-        android:src="@drawable/coletivocasa3" />
 
-    <ImageButton
-        android:id="@+id/company4"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:layout_below="@id/company2"
-        android:layout_toRightOf="@id/company3"
-        android:src="@drawable/proverseguro" />
 
-    <ImageButton
-        android:id="@+id/company5"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:layout_below="@id/company3"
-        android:src="@drawable/peregrino" />
-
-    <ImageButton
-        android:id="@+id/company6"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:layout_below="@id/company4"
-        android:layout_toRightOf="@id/company5"
-        android:src="@drawable/logovivero" />
-
-</RelativeLayout>
+</LinearLayout>
 
