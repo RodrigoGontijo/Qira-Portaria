@@ -97,6 +97,14 @@ public class WalkieTalkieActivity extends AppCompatActivity implements View.OnTo
         initializeManager();
 
         checkIsRegistred();
+
+        SharedPreferences sharedPreferences = getSharedPreferences("settings", MODE_PRIVATE);
+        SharedPreferences.Editor editor = sharedPreferences.edit();
+        editor.putString("user","8200");
+        editor.putString("password", "@quaecoh6Ria@");
+        editor.putString("domain", "172.16.100.251:5566");
+        editor.apply();
+
     }
 
 
@@ -234,7 +242,9 @@ public class WalkieTalkieActivity extends AppCompatActivity implements View.OnTo
                 public void onCallEstablished(SipAudioCall call) {
                     call.startAudio();
                     call.setSpeakerMode(true);
-                    call.toggleMute();
+                    if(call.isMuted()) {
+                        call.toggleMute();
+                    }
                     updateStatus(call);
                 }
 
