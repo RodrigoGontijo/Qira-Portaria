@@ -80,6 +80,7 @@ public class WalkieTalkieActivity extends AppCompatActivity implements View.OnTo
         setContentView(com.qira.portaria.R.layout.activity_main);
 
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
+        getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
 
 
         // Set up the intent filter.  This will be used to fire an
@@ -90,7 +91,14 @@ public class WalkieTalkieActivity extends AppCompatActivity implements View.OnTo
         callReceiver = new IncomingCallReceiver();
         this.registerReceiver(callReceiver, filter);
 
-        getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
+
+
+    }
+
+
+    @Override
+    public void onResume(){
+        super.onResume();
 
         initializeViews();
 
@@ -104,9 +112,7 @@ public class WalkieTalkieActivity extends AppCompatActivity implements View.OnTo
         editor.putString("password", "@quaecoh6Ria@");
         editor.putString("domain", "172.16.100.251:5566");
         editor.apply();
-
     }
-
 
 
 

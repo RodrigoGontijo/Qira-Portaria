@@ -1,12 +1,16 @@
 package com.qira.portaria;
 
 
+import android.animation.AnimatorSet;
+import android.animation.ObjectAnimator;
 import android.content.Intent;
+import android.media.Image;
 import android.os.Bundle;
-import android.os.PersistableBundle;
+
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.WindowManager;
+import android.widget.ImageView;
 import android.widget.RelativeLayout;
 
 import pl.bclogic.pulsator4droid.library.PulsatorLayout;
@@ -15,14 +19,16 @@ public class SplashScreenActivity extends AppCompatActivity{
 
     private PulsatorLayout pulsator;
     private RelativeLayout relativeLayout;
+    private ImageView logo_splash;
 
     @Override
-    public void onCreate(Bundle savedInstanceState, PersistableBundle persistentState) {
+    public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
+        getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
         setViews();
-        setClickListernet();
+        setClickListerner();
     }
 
 
@@ -33,9 +39,17 @@ public class SplashScreenActivity extends AppCompatActivity{
 
         relativeLayout = (RelativeLayout) findViewById(R.id.splash_screen_activity);
 
+        logo_splash = (ImageView) findViewById(R.id.logo_splash);
+
+        ObjectAnimator fadeIn = ObjectAnimator.ofFloat(logo_splash, "alpha", .1f, 1f);
+        fadeIn.setDuration(3500);
+        final AnimatorSet mAnimationSet = new AnimatorSet();
+
+        mAnimationSet.play(fadeIn);
+        mAnimationSet.start();
     }
 
-    private void setClickListernet() {
+    private void setClickListerner() {
         relativeLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

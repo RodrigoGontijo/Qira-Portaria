@@ -1,12 +1,3 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" >
+<items version="2" />
 
-    <item
-        jar="C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="3faf7613646acb68ff0f9fe33f565eb80fb0d9a0">
-        <dex dex="C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_24ce397bc888c30c62748edc0e08974a8bbc48ee\classes.dex" />
-    </item>
-
-</items>

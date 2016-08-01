@@ -28,20 +28,20 @@
         "source": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\anim\\abc_fade_in.xml"
     },
     {
-        "merged": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_out.xml",
-        "source": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.1\\res\\anim\\design_fab_out.xml"
-    },
-    {
         "merged": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
         "source": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\anim\\abc_popup_exit.xml"
     },
     {
-        "merged": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_in.xml",
-        "source": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.1\\res\\anim\\design_bottom_sheet_slide_in.xml"
+        "merged": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_out.xml",
+        "source": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.1\\res\\anim\\design_fab_out.xml"
     },
     {
         "merged": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_in.xml",
         "source": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.1\\res\\anim\\design_snackbar_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.1\\res\\anim\\design_bottom_sheet_slide_in.xml"
     },
     {
         "merged": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
