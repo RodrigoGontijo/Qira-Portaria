@@ -1,0 +1,12 @@
+int attr pulse_color 0x7f010002
+int attr pulse_count 0x7f010000
+int attr pulse_duration 0x7f010001
+int attr pulse_repeat 0x7f010003
+int attr pulse_startFromScratch 0x7f010004
+int string app_name 0x7f020000
+int[] styleable Pulsator4Droid { 0x7f010000, 0x7f010001, 0x7f010002, 0x7f010003, 0x7f010004 }
+int styleable Pulsator4Droid_pulse_color 2
+int styleable Pulsator4Droid_pulse_count 0
+int styleable Pulsator4Droid_pulse_duration 1
+int styleable Pulsator4Droid_pulse_repeat 3
+int styleable Pulsator4Droid_pulse_startFromScratch 4

@@ -40,10 +40,12 @@
         android:required="true" />
 
     <application
+        android:allowBackup="true"
         android:icon="@drawable/icon"
-        android:label="@string/app_name" >
+        android:label="@string/app_name"
+        android:supportsRtl="true" >
         <activity
-            android:name="com.qira.portaria.WalkieTalkieActivity"
+            android:name="com.qira.portaria.SplashScreenActivity"
             android:configChanges="orientation|keyboardHidden"
             android:theme="@style/SuperCoolAppBarActivity" >
             <intent-filter>
@@ -53,9 +55,15 @@
             </intent-filter>
         </activity>
         <activity
+            android:name="com.qira.portaria.WalkieTalkieActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:theme="@style/SuperCoolAppBarActivity" >
+        </activity>
+        <activity
             android:name="com.qira.portaria.SipSettings"
             android:label="set_preferences"
-            android:theme="@style/SuperCoolAppBarActivity" />
+            android:theme="@style/SuperCoolAppBarActivity" >
+        </activity>
 
         <receiver
             android:name="com.qira.portaria.IncomingCallReceiver"

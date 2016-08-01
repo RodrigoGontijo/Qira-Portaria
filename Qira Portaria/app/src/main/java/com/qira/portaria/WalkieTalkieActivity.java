@@ -400,6 +400,13 @@ public class WalkieTalkieActivity extends AppCompatActivity implements View.OnTo
             @Override
             public void onClick(View v) {
                 callReceiver.kill();
+                if(call.isInCall()){
+                    try {
+                        call.endCall();
+                    } catch (SipException e) {
+                        e.printStackTrace();
+                    }
+                }
                 sipAddress = "8201@172.16.100.251:5566";
                 initiateCall();
             }
@@ -411,6 +418,13 @@ public class WalkieTalkieActivity extends AppCompatActivity implements View.OnTo
             @Override
             public void onClick(View v) {
                 callReceiver.kill();
+                if(call.isInCall()){
+                    try {
+                        call.endCall();
+                    } catch (SipException e) {
+                        e.printStackTrace();
+                    }
+                }
                 sipAddress = "8202@172.16.100.251:5566";
                 initiateCall();
             }
@@ -422,6 +436,13 @@ public class WalkieTalkieActivity extends AppCompatActivity implements View.OnTo
             @Override
             public void onClick(View v) {
                 callReceiver.kill();
+                if(call.isInCall()){
+                    try {
+                        call.endCall();
+                    } catch (SipException e) {
+                        e.printStackTrace();
+                    }
+                }
                 sipAddress = "8203@172.16.100.251:5566";
                 initiateCall();
             }
@@ -433,6 +454,13 @@ public class WalkieTalkieActivity extends AppCompatActivity implements View.OnTo
             @Override
             public void onClick(View v) {
                 callReceiver.kill();
+                if(call.isInCall()){
+                    try {
+                        call.endCall();
+                    } catch (SipException e) {
+                        e.printStackTrace();
+                    }
+                }
                 sipAddress = "8204@172.16.100.251:5566";
                 initiateCall();
             }
@@ -444,6 +472,13 @@ public class WalkieTalkieActivity extends AppCompatActivity implements View.OnTo
             @Override
             public void onClick(View v) {
                 callReceiver.kill();
+                if(call.isInCall()){
+                    try {
+                        call.endCall();
+                    } catch (SipException e) {
+                        e.printStackTrace();
+                    }
+                }
                 sipAddress = "8205@172.16.100.251:5566";
                 initiateCall();
             }
@@ -454,6 +489,13 @@ public class WalkieTalkieActivity extends AppCompatActivity implements View.OnTo
             @Override
             public void onClick(View v) {
                 callReceiver.kill();
+                if(call.isInCall()){
+                    try {
+                        call.endCall();
+                    } catch (SipException e) {
+                        e.printStackTrace();
+                    }
+                }
                 sipAddress = "8206@172.16.100.251:5566";
                 initiateCall();
             }

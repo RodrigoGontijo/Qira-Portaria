@@ -22,4 +22,5 @@ android {
 dependencies{
     compile 'com.android.support:appcompat-v7:23.2.1'
     compile 'com.android.support:design:23.2.1'
+    compile 'pl.bclogic:pulsator4droid:1.0.2'
 }
