@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/settingsActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/registrationStateFixed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Situação de registro: "
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/registrationState"
+        android:layout_width="match_parent"
+        android:layout_marginTop="2dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/WifiStateFixed"
+        android:textColor="@android:color/white" />
+
+    <View
+        android:id="@+id/lineSeparator1"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/registrationStateFixed"
+        android:layout_marginTop="2dp"
+        android:background="#c0c0c0" />
+
+
+    <!-- separator -->
+
+
+    <TextView
+        android:id="@+id/WifiStateFixed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lineSeparator1"
+        android:text="Situação de conexão: "
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/WifiState"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_below="@id/registrationState"
+        android:layout_toRightOf="@+id/WifiStateFixed"
+        android:textColor="@android:color/white" />
+
+    <View
+        android:id="@+id/lineSeparator2"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/WifiStateFixed"
+        android:layout_marginTop="2dp"
+        android:background="#c0c0c0" />
+
+
+    <!-- separator -->
+
+
+    <TextView
+        android:id="@+id/callFixed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/lineSeparator2"
+        android:text="Situação de call: "
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/callState"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/WifiState"
+        android:layout_marginTop="4dp"
+        android:layout_toRightOf="@+id/WifiStateFixed"
+        android:textColor="@android:color/white" />
+
+
+    <View
+        android:id="@+id/lineSeparator3"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/callFixed"
+        android:layout_marginTop="2dp"
+        android:background="#c0c0c0" />
+
+
+    <!-- separator -->
+
+
+    <TextView
+        android:id="@+id/sipAdressFixed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lineSeparator3"
+        android:text="Sip Adress: "
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/sipAdress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_below="@+id/callState"
+        android:layout_toRightOf="@+id/WifiStateFixed"
+        android:textColor="@android:color/white" />
+
+
+    <View
+        android:id="@+id/lineSeparator4"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/sipAdressFixed"
+        android:layout_marginTop="2dp"
+        android:background="#c0c0c0" />
+
+
+</RelativeLayout>

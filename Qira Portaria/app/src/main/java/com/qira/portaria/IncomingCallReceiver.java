@@ -78,7 +78,7 @@ public class IncomingCallReceiver extends BroadcastReceiver {
 
 
             run(incomingCall);
-            wtActivity.updateStatus(incomingCall);
+            //wtActivity.updateStatus(incomingCall);
 
 
         } catch (Exception e) {

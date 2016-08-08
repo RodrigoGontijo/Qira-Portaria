@@ -8,17 +8,17 @@ package pl.bclogic.pulsator4droid.library;
 
 public final class R {
 	public static final class attr {
-		public static final int pulse_color = 0x7f0100d4;
-		public static final int pulse_count = 0x7f0100d2;
-		public static final int pulse_duration = 0x7f0100d3;
-		public static final int pulse_repeat = 0x7f0100d5;
-		public static final int pulse_startFromScratch = 0x7f0100d6;
+		public static final int pulse_color = 0x7f0100d6;
+		public static final int pulse_count = 0x7f0100d4;
+		public static final int pulse_duration = 0x7f0100d5;
+		public static final int pulse_repeat = 0x7f0100d7;
+		public static final int pulse_startFromScratch = 0x7f0100d8;
 	}
 	public static final class string {
 		public static final int app_name = 0x7f060014;
 	}
 	public static final class styleable {
-		public static final int[] Pulsator4Droid = { 0x7f0100d2, 0x7f0100d3, 0x7f0100d4, 0x7f0100d5, 0x7f0100d6 };
+		public static final int[] Pulsator4Droid = { 0x7f0100d4, 0x7f0100d5, 0x7f0100d6, 0x7f0100d7, 0x7f0100d8 };
 		public static final int Pulsator4Droid_pulse_color = 2;
 		public static final int Pulsator4Droid_pulse_count = 0;
 		public static final int Pulsator4Droid_pulse_duration = 1;

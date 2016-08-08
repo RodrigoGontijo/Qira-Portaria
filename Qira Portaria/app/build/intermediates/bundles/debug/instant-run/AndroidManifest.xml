@@ -42,12 +42,14 @@
     <application
         android:name="com.android.tools.fd.runtime.BootstrapApplication"
         android:allowBackup="true"
+        android:hardwareAccelerated="true"
         android:icon="@drawable/icon"
         android:label="@string/app_name"
         android:supportsRtl="true" >
         <activity
             android:name="com.qira.portaria.SplashScreenActivity"
             android:configChanges="orientation|keyboardHidden"
+            android:parentActivityName="com.qira.portaria.WalkieTalkieActivity"
             android:theme="@style/SuperCoolAppBarActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -62,6 +64,11 @@
         </activity>
         <activity
             android:name="com.qira.portaria.SipSettings"
+            android:label="set_preferences"
+            android:theme="@style/SuperCoolAppBarActivity" >
+        </activity>
+        <activity
+            android:name="com.qira.portaria.SettingsActivity"
             android:label="set_preferences"
             android:theme="@style/SuperCoolAppBarActivity" >
         </activity>

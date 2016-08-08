@@ -15,11 +15,12 @@ import android.widget.RelativeLayout;
 
 import pl.bclogic.pulsator4droid.library.PulsatorLayout;
 
-public class SplashScreenActivity extends AppCompatActivity{
+public class SplashScreenActivity extends AppCompatActivity {
 
     private PulsatorLayout pulsator;
     private RelativeLayout relativeLayout;
     private ImageView logo_splash;
+    private AnimatorSet mAnimationSet;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -27,8 +28,15 @@ public class SplashScreenActivity extends AppCompatActivity{
         setContentView(R.layout.activity_splash);
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
         setViews();
         setClickListerner();
+        if (!mAnimationSet.isRunning())
+            mAnimationSet.start();
     }
 
 
@@ -43,13 +51,14 @@ public class SplashScreenActivity extends AppCompatActivity{
 
         ObjectAnimator fadeIn = ObjectAnimator.ofFloat(logo_splash, "alpha", .1f, 1f);
         fadeIn.setDuration(3500);
-        final AnimatorSet mAnimationSet = new AnimatorSet();
+        mAnimationSet = new AnimatorSet();
 
         mAnimationSet.play(fadeIn);
         mAnimationSet.start();
     }
 
     private void setClickListerner() {
+        mAnimationSet.end();
         relativeLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

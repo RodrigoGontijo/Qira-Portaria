@@ -22,6 +22,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.SharedPreferences;
+import android.media.Image;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.net.sip.SipAudioCall;
@@ -52,7 +53,7 @@ import java.text.ParseException;
 /**
  * Handles all calling, receiving calls, and UI interaction in the WalkieTalkie app.
  */
-public class WalkieTalkieActivity extends AppCompatActivity implements View.OnTouchListener {
+public class WalkieTalkieActivity extends AppCompatActivity {
 
     public String sipAddress = null;
 
@@ -62,6 +63,7 @@ public class WalkieTalkieActivity extends AppCompatActivity implements View.OnTo
     public Toast toast;
     public IncomingCallReceiver callReceiver;
     public Handler h = new Handler();
+    public int clicksOnLogo = 0;
 
 
     public boolean isRegistred;
@@ -70,7 +72,7 @@ public class WalkieTalkieActivity extends AppCompatActivity implements View.OnTo
     private static final int SET_AUTH_INFO = 2;
     private static final int UPDATE_SETTINGS_DIALOG = 3;
     private static final int HANG_UP = 4;
-    private static final int DELAY = 30000; //milliseconds
+    private static final int DELAY = 3000; //milliseconds
 
 
     @Override
@@ -78,9 +80,15 @@ public class WalkieTalkieActivity extends AppCompatActivity implements View.OnTo
 
         super.onCreate(savedInstanceState);
         setContentView(com.qira.portaria.R.layout.activity_main);
-
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
+
+    }
+
+
+    @Override
+    public void onResume() {
+        super.onResume();
 
 
         // Set up the intent filter.  This will be used to fire an
@@ -91,29 +99,24 @@ public class WalkieTalkieActivity extends AppCompatActivity implements View.OnTo
         callReceiver = new IncomingCallReceiver();
         this.registerReceiver(callReceiver, filter);
 
-
-
-    }
-
-
-    @Override
-    public void onResume(){
-        super.onResume();
-
         initializeViews();
 
         initializeManager();
 
         checkIsRegistred();
 
+
         SharedPreferences sharedPreferences = getSharedPreferences("settings", MODE_PRIVATE);
         SharedPreferences.Editor editor = sharedPreferences.edit();
-        editor.putString("user","8200");
+        editor.putString("user", "8200");
         editor.putString("password", "@quaecoh6Ria@");
         editor.putString("domain", "172.16.100.251:5566");
+
+//        editor.putString("user", "8197");
+//        editor.putString("password", "*Aabb44cc77!*");
+//        editor.putString("domain", "192.168.1.2");
         editor.apply();
     }
-
 
 
     @Override
@@ -140,6 +143,20 @@ public class WalkieTalkieActivity extends AppCompatActivity implements View.OnTo
         }
     }
 
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(com.qira.portaria.R.menu.menu_main, menu);
+        return true;
+    }
+
+
+    @Override
+    public void onBackPressed() {
+        //DO nothing
+
+    }
+
     public void initializeManager() {
         if (manager == null) {
             manager = SipManager.newInstance(this);
@@ -153,6 +170,10 @@ public class WalkieTalkieActivity extends AppCompatActivity implements View.OnTo
      * send SIP calls to for your SIP address.
      */
     public void initializeLocalProfile() {
+        SharedPreferences sharedPreferencesState = getSharedPreferences("state", MODE_PRIVATE);
+        final SharedPreferences.Editor editor = sharedPreferencesState.edit();
+
+
         if (manager == null) {
             return;
         }
@@ -191,28 +212,35 @@ public class WalkieTalkieActivity extends AppCompatActivity implements View.OnTo
             manager.setRegistrationListener(me.getUriString(), new SipRegistrationListener() {
 
                 public void onRegistering(String localProfileUri) {
-                    updateStatus("Registering with SIP Server...");
+                    editor.putString("registrationState", "Registering with SIP Server...");
                     isRegistred = false;
+                    editor.apply();
                 }
 
                 public void onRegistrationDone(String localProfileUri, long expiryTime) {
-                    updateStatus("Ready");
+                    editor.putString("registrationState", "Ready");
                     isRegistred = true;
+                    editor.apply();
                 }
 
                 public void onRegistrationFailed(String localProfileUri, int errorCode, String errorMessage) {
-                    updateStatus("Registration failed.  Please check settings.");
+                    editor.putString("registrationState", "Registration failed.");
                     isRegistred = false;
+                    editor.apply();
 
                 }
 
             });
 
         } catch (ParseException pe) {
-            updateStatus("Connection Error.");
+            editor.putString("registrationState", "Registration failed.");
+            editor.apply();
         } catch (SipException se) {
-            updateStatus("Connection error.");
+            editor.putString("registrationState", "Registration failed.");
+            editor.apply();
         }
+
+
     }
 
     /**
@@ -236,9 +264,12 @@ public class WalkieTalkieActivity extends AppCompatActivity implements View.OnTo
      * Make an outgoing call.
      */
     public void initiateCall() {
+        SharedPreferences sharedPreferencesState = getSharedPreferences("state", MODE_PRIVATE);
+        final SharedPreferences.Editor editor = sharedPreferencesState.edit();
 
-        updateStatus(sipAddress);
 
+        editor.putString("sipAddress", sipAddress);
+        editor.apply();
         try {
             SipAudioCall.Listener listener = new SipAudioCall.Listener() {
                 // Much of the client's interaction with the SIP Stack will
@@ -248,20 +279,23 @@ public class WalkieTalkieActivity extends AppCompatActivity implements View.OnTo
                 public void onCallEstablished(SipAudioCall call) {
                     call.startAudio();
                     call.setSpeakerMode(true);
-                    if(call.isMuted()) {
+                    if (call.isMuted()) {
                         call.toggleMute();
                     }
-                    updateStatus(call);
+                    editor.putString("call", call.toString());
+                    editor.apply();
                 }
 
                 @Override
                 public void onCallEnded(SipAudioCall call) {
-                    updateStatus("Ready.");
+                    editor.putString("registrationState", "Ready");
                     callReceiver.kill();
+                    editor.apply();
                 }
             };
 
             call = manager.makeAudioCall(me.getUriString(), sipAddress, listener, 30);
+
 
         } catch (Exception e) {
             Log.i("WalkieTalkieActivity/InitiateCall", "Error when trying to close manager.", e);
@@ -278,122 +312,13 @@ public class WalkieTalkieActivity extends AppCompatActivity implements View.OnTo
                 call.close();
             }
         }
-    }
-
-    /**
-     * Updates the status box at the top of the UI with a messege of your choice.
-     *
-     * @param status The String to display in the status box.
-     */
-    public void updateStatus(final String status) {
-        // Be a good citizen.  Make sure UI changes fire on the UI thread.
-        this.runOnUiThread(new Runnable() {
-            public void run() {
-                toast = Toast.makeText(getApplicationContext(), status, Toast.LENGTH_SHORT);
-                toast.show();
-            }
-        });
-
 
     }
 
-    /**
-     * Updates the status box with the SIP address of the current call.
-     *
-     * @param call The current, active call.
-     */
-    public void updateStatus(SipAudioCall call) {
-        String useName = call.getPeerProfile().getDisplayName();
-        if (useName == null) {
-            useName = call.getPeerProfile().getUserName();
-        }
-        updateStatus(useName + "@" + call.getPeerProfile().getSipDomain());
-    }
-
-    /**
-     * Updates whether or not the user's voice is muted, depending on whether the button is pressed.
-     *
-     * @param v     The View where the touch event is being fired.
-     * @param event The motion to act on.
-     * @return boolean Returns false to indicate that the parent view should handle the touch event
-     * as it normally would.
-     */
-    public boolean onTouch(View v, MotionEvent event) {
-        if (call == null) {
-            return false;
-        } else if (event.getAction() == MotionEvent.ACTION_DOWN && call != null && call.isMuted()) {
-            call.toggleMute();
-        } else if (event.getAction() == MotionEvent.ACTION_UP && !call.isMuted()) {
-            call.toggleMute();
-        }
-        return false;
-    }
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(com.qira.portaria.R.menu.menu_main, menu);
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
-            case com.qira.portaria.R.id.call:
-                // custom dialog
-                final Dialog dialog = new Dialog(this);
-                dialog.setContentView(com.qira.portaria.R.layout.call_address_dialog);
-                dialog.setTitle("Call Someone");
-
-                // set the custom dialog components - text, image and button
-                TextView text = (TextView) dialog.findViewById(com.qira.portaria.R.id.calladdress_view);
-                text.setText("Insert Contact number!");
-
-                final EditText editText = (EditText) dialog.findViewById(com.qira.portaria.R.id.calladdress_edit);
-
-                ImageView image = (ImageView) dialog.findViewById(com.qira.portaria.R.id.image_sip);
-                image.setImageResource(com.qira.portaria.R.drawable.icon);
-
-                Button dialogButton = (Button) dialog.findViewById(com.qira.portaria.R.id.dialogButtonCall);
-                // if button is clicked, close the custom dialog
-                dialogButton.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        sipAddress = editText.getText().toString();
-                        initiateCall();
-                        dialog.dismiss();
-                    }
-                });
-
-                dialog.show();
-                break;
-            case com.qira.portaria.R.id.edit:
-                updatePreferences();
-                break;
-            case com.qira.portaria.R.id.end_call:
-                if (call != null) {
-                    try {
-                        call.endCall();
-                    } catch (SipException se) {
-                        Log.d("WalkieTalkieActivity/onOptionsItemSelected",
-                                "Error ending call.", se);
-                    }
-                    callReceiver.kill();
-                    call.close();
-                }
-                break;
-        }
-        return true;
-    }
-
-
-    public void updatePreferences() {
-        Intent settingsActivity = new Intent(getBaseContext(),
-                SipSettings.class);
-        startActivity(settingsActivity);
-    }
 
     private void initializeViews() {
+        ImageView logoSettings = (ImageView) findViewById(R.id.logo_settings);
+
         RelativeLayout company1 = (RelativeLayout) findViewById(R.id.coletivo);
         RelativeLayout company2 = (RelativeLayout) findViewById(R.id.nauweb);
         RelativeLayout company3 = (RelativeLayout) findViewById(R.id.prover);
@@ -401,18 +326,37 @@ public class WalkieTalkieActivity extends AppCompatActivity implements View.OnTo
         RelativeLayout company5 = (RelativeLayout) findViewById(R.id.peregrino);
         RelativeLayout company6 = (RelativeLayout) findViewById(R.id.vivero);
 
+
+        assert logoSettings != null;
+        logoSettings.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                clicksOnLogo++;
+                if (clicksOnLogo >= 4) {
+                    clicksOnLogo = 0;
+                    Intent settingsActivity = new Intent(getBaseContext(),
+                            SettingsActivity.class);
+                    startActivity(settingsActivity);
+                }
+            }
+        });
+
+
         assert company1 != null;
         company1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 callReceiver.kill();
-                if(call.isInCall()){
-                    try {
-                        call.endCall();
-                    } catch (SipException e) {
-                        e.printStackTrace();
+                if (call != null) {
+                    if (call.isInCall()) {
+                        try {
+                            call.endCall();
+                        } catch (SipException e) {
+                            e.printStackTrace();
+                        }
                     }
                 }
+                //sipAddress = "8196@192.168.1.2";
                 sipAddress = "8201@172.16.100.251:5566";
                 initiateCall();
             }
@@ -424,11 +368,13 @@ public class WalkieTalkieActivity extends AppCompatActivity implements View.OnTo
             @Override
             public void onClick(View v) {
                 callReceiver.kill();
-                if(call.isInCall()){
-                    try {
-                        call.endCall();
-                    } catch (SipException e) {
-                        e.printStackTrace();
+                if (call != null) {
+                    if (call.isInCall()) {
+                        try {
+                            call.endCall();
+                        } catch (SipException e) {
+                            e.printStackTrace();
+                        }
                     }
                 }
                 sipAddress = "8202@172.16.100.251:5566";
@@ -442,11 +388,13 @@ public class WalkieTalkieActivity extends AppCompatActivity implements View.OnTo
             @Override
             public void onClick(View v) {
                 callReceiver.kill();
-                if(call.isInCall()){
-                    try {
-                        call.endCall();
-                    } catch (SipException e) {
-                        e.printStackTrace();
+                if (call != null) {
+                    if (call.isInCall()) {
+                        try {
+                            call.endCall();
+                        } catch (SipException e) {
+                            e.printStackTrace();
+                        }
                     }
                 }
                 sipAddress = "8203@172.16.100.251:5566";
@@ -460,11 +408,13 @@ public class WalkieTalkieActivity extends AppCompatActivity implements View.OnTo
             @Override
             public void onClick(View v) {
                 callReceiver.kill();
-                if(call.isInCall()){
-                    try {
-                        call.endCall();
-                    } catch (SipException e) {
-                        e.printStackTrace();
+                if (call != null) {
+                    if (call.isInCall()) {
+                        try {
+                            call.endCall();
+                        } catch (SipException e) {
+                            e.printStackTrace();
+                        }
                     }
                 }
                 sipAddress = "8204@172.16.100.251:5566";
@@ -478,15 +428,18 @@ public class WalkieTalkieActivity extends AppCompatActivity implements View.OnTo
             @Override
             public void onClick(View v) {
                 callReceiver.kill();
-                if(call.isInCall()){
-                    try {
-                        call.endCall();
-                    } catch (SipException e) {
-                        e.printStackTrace();
+                if (call != null) {
+                    if (call.isInCall()) {
+                        try {
+                            call.endCall();
+                        } catch (SipException e) {
+                            e.printStackTrace();
+                        }
                     }
                 }
                 sipAddress = "8205@172.16.100.251:5566";
                 initiateCall();
+
             }
         });
 
@@ -495,11 +448,13 @@ public class WalkieTalkieActivity extends AppCompatActivity implements View.OnTo
             @Override
             public void onClick(View v) {
                 callReceiver.kill();
-                if(call.isInCall()){
-                    try {
-                        call.endCall();
-                    } catch (SipException e) {
-                        e.printStackTrace();
+                if (call != null) {
+                    if (call.isInCall()) {
+                        try {
+                            call.endCall();
+                        } catch (SipException e) {
+                            e.printStackTrace();
+                        }
                     }
                 }
                 sipAddress = "8206@172.16.100.251:5566";
@@ -510,24 +465,12 @@ public class WalkieTalkieActivity extends AppCompatActivity implements View.OnTo
 
     }
 
-    public void checkWifiConnection(){
-        ConnectivityManager connManager = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
-        NetworkInfo mWifi = connManager.getNetworkInfo(ConnectivityManager.TYPE_WIFI);
-
-        if (!mWifi.isConnected()) {
-            Toast.makeText(this,"Check Wifi connection", Toast.LENGTH_SHORT).show();
-
-        }
-    }
 
     public void checkIsRegistred() {
-
-
-        h.postDelayed(new Runnable(){
-            public void run(){
-                if(!isRegistred) {
+        h.postDelayed(new Runnable() {
+            public void run() {
+                if (!isRegistred) {
                     initializeLocalProfile();
-                    checkWifiConnection();
                 }
                 h.postDelayed(this, DELAY);
             }

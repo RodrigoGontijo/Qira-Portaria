@@ -1,58 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="armeabi-v7a,armeabi"
-    api-level="22"
-    density="hdpi"
+    abi="x86,armeabi-v7a"
+    api-level="19"
+    density="xhdpi"
     format="7"
-    timestamp="959011158831823"
-    token="3388707310861732496"
-    verifier="COMPATIBLE" >
+    timestamp="397218089673028"
+    token="3388707310861732496" >
 
     <task
         name="javac"
-        duration="324" />
+        duration="0" />
     <task
         name="instant-run-dex"
-        duration="288" />
+        duration="0" />
     <task
         name="instant-run-transform"
-        duration="27" />
+        duration="0" />
     <task
         name="verifier"
-        duration="2" />
+        duration="0" />
 
-    <artifact
-        location="C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\reload-dex\debug\classes.dex"
-        type="RELOAD_DEX" />
-
-    <build timestamp="958359395780652" >
-        <artifact
-            location="C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\outputs\apk\app-debug.apk"
-            type="MAIN" />
-    </build>
-    <build timestamp="958645270166479" >
-        <artifact
-            location="C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\res\resources-debug.ap_"
-            type="RESOURCES" />
-    </build>
-    <build timestamp="958986179305219" >
-        <artifact
-            location="C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
-            type="DEX" />
-    </build>
-    <build
-        timestamp="958999898058945"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\builds\debug\958999898058945\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="959011158831823"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\reload-dex\debug\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
+    <build timestamp="397218089673028" />
 
 </instant-run>
