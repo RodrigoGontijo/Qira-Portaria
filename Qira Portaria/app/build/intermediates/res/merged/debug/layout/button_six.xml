@@ -39,7 +39,7 @@
         android:layout_alignStart="@+id/room1"
         android:layout_marginTop="22dp"
         android:paddingBottom="2dp"
-        android:text="VIVERO ARQUITETURA"
+        android:text="VIVERO/COBALTO"
         android:textColor="#FFFFF2"
         android:textSize="18sp"
 

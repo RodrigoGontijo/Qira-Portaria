@@ -39,7 +39,7 @@
         android:layout_alignStart="@+id/room1"
         android:layout_marginTop="22dp"
         android:paddingBottom="2dp"
-        android:text="PROVER SEGUROS"
+        android:text="COLETIVO CASA 3"
         android:textColor="#FFFFF2"
         android:textSize="18sp"
 

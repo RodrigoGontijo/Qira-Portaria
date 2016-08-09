@@ -16,15 +16,10 @@
 
 package com.qira.portaria;
 
-import android.app.Dialog;
 import android.app.PendingIntent;
-import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.SharedPreferences;
-import android.media.Image;
-import android.net.ConnectivityManager;
-import android.net.NetworkInfo;
 import android.net.sip.SipAudioCall;
 import android.net.sip.SipException;
 import android.net.sip.SipManager;
@@ -33,19 +28,12 @@ import android.net.sip.SipRegistrationListener;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.Menu;
-import android.view.MenuItem;
-import android.view.MotionEvent;
 import android.view.View;
 import android.view.WindowManager;
-import android.widget.Button;
-import android.widget.EditText;
-import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import java.text.ParseException;
@@ -64,6 +52,7 @@ public class WalkieTalkieActivity extends AppCompatActivity {
     public IncomingCallReceiver callReceiver;
     public Handler h = new Handler();
     public int clicksOnLogo = 0;
+    public int onresume = 0;
 
 
     public boolean isRegistred;
@@ -83,14 +72,6 @@ public class WalkieTalkieActivity extends AppCompatActivity {
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
 
-    }
-
-
-    @Override
-    public void onResume() {
-        super.onResume();
-
-
         // Set up the intent filter.  This will be used to fire an
         // IncomingCallReceiver when someone calls the SIP address used by this
         // application.
@@ -99,23 +80,36 @@ public class WalkieTalkieActivity extends AppCompatActivity {
         callReceiver = new IncomingCallReceiver();
         this.registerReceiver(callReceiver, filter);
 
-        initializeViews();
-
-        initializeManager();
-
-        checkIsRegistred();
+    }
 
 
-        SharedPreferences sharedPreferences = getSharedPreferences("settings", MODE_PRIVATE);
-        SharedPreferences.Editor editor = sharedPreferences.edit();
-        editor.putString("user", "8200");
-        editor.putString("password", "@quaecoh6Ria@");
-        editor.putString("domain", "172.16.100.251:5566");
+    @Override
+    public void onResume() {
+        super.onResume();
+
+        onresume++;
+
+
+        if (onresume == 1) {
+            initializeViews();
+
+            initializeManager();
+
+            checkIsRegistred();
+
+
+            SharedPreferences sharedPreferences = getSharedPreferences("settings", MODE_PRIVATE);
+            SharedPreferences.Editor editor = sharedPreferences.edit();
+            editor.putString("user", "8200");
+            editor.putString("password", "@quaecoh6Ria@");
+            editor.putString("domain", "172.16.100.251:5566");
 
 //        editor.putString("user", "8197");
 //        editor.putString("password", "*Aabb44cc77!*");
 //        editor.putString("domain", "192.168.1.2");
-        editor.apply();
+            editor.apply();
+        }
+
     }
 
 

@@ -1,23 +1,19 @@
 [
     {
-        "merged": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
-        "source": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_btn_colored_material.xml"
+        "merged": "C:\\Users\\rodri\\Documents\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_speak_normal.png",
+        "source": "C:\\Users\\rodri\\Documents\\QiraPortaria\\Qira Portaria\\app\\src\\main\\res\\drawable\\btn_speak_normal.png"
     },
     {
-        "merged": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
-        "source": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_item_background_holo_dark.xml"
+        "merged": "C:\\Users\\rodri\\Documents\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
+        "source": "C:\\Users\\rodri\\Documents\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.1\\res\\drawable\\design_fab_background.xml"
     },
     {
-        "merged": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
-        "source": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+        "merged": "C:\\Users\\rodri\\Documents\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\rodri\\Documents\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_spinner_textfield_background_material.xml"
     },
     {
-        "merged": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\logoimaginario.png",
-        "source": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\src\\main\\res\\drawable\\logoimaginario.png"
-    },
-    {
-        "merged": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_speak_pressed.png",
-        "source": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\src\\main\\res\\drawable\\btn_speak_pressed.png"
+        "merged": "C:\\Users\\rodri\\Documents\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Users\\rodri\\Documents\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
     },
     {
         "merged": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_full_material.xml",
@@ -28,6 +24,62 @@
         "source": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_cab_background_internal_bg.xml"
     },
     {
+        "merged": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\rodri\\Documents\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "C:\\Users\\rodri\\Documents\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\rodri\\Documents\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\rodri\\Documents\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\rodri\\Documents\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_dark.xml",
+        "source": "C:\\Users\\rodri\\Documents\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_dialog_material_background_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\rodri\\Documents\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\rodri\\Documents\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\logoimaginario.png",
+        "source": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\src\\main\\res\\drawable\\logoimaginario.png"
+    },
+    {
+        "merged": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\rodri\\Documents\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\rodri\\Documents\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\rodri\\Documents\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\coletivocasa3.png",
+        "source": "C:\\Users\\rodri\\Documents\\QiraPortaria\\Qira Portaria\\app\\src\\main\\res\\drawable\\coletivocasa3.png"
+    },
+    {
+        "merged": "C:\\Users\\rodri\\Documents\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_light.xml",
+        "source": "C:\\Users\\rodri\\Documents\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_dialog_material_background_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_speak_pressed.png",
+        "source": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\src\\main\\res\\drawable\\btn_speak_pressed.png"
+    },
+    {
         "merged": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
         "source": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_btn_check_material.xml"
     },
@@ -36,28 +88,64 @@
         "source": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\src\\main\\res\\drawable\\peregrino.jpg"
     },
     {
-        "merged": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
-        "source": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_list_selector_holo_dark.xml"
-    },
-    {
         "merged": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
         "source": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
     },
     {
-        "merged": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
-        "source": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+        "merged": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_edit_text_material.xml"
     },
     {
-        "merged": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
-        "source": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.1\\res\\drawable\\design_fab_background.xml"
+        "merged": "C:\\Users\\rodri\\Documents\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\circle_border.xml",
+        "source": "C:\\Users\\rodri\\Documents\\QiraPortaria\\Qira Portaria\\app\\src\\main\\res\\drawable\\circle_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\proverseguro.png",
+        "source": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\src\\main\\res\\drawable\\proverseguro.png"
+    },
+    {
+        "merged": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon.png",
+        "source": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\src\\main\\res\\drawable\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\rodri\\Documents\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\rodri\\Documents\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\rodri\\Documents\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\buttton_border.xml",
+        "source": "C:\\Users\\rodri\\Documents\\QiraPortaria\\Qira Portaria\\app\\src\\main\\res\\drawable\\buttton_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\rodri\\Documents\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\rodri\\Documents\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\rodri\\Documents\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\proverseguro.png",
+        "source": "C:\\Users\\rodri\\Documents\\QiraPortaria\\Qira Portaria\\app\\src\\main\\res\\drawable\\proverseguro.png"
+    },
+    {
+        "merged": "C:\\Users\\rodri\\Documents\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "C:\\Users\\rodri\\Documents\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_seekbar_track_material.xml"
     },
     {
         "merged": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
         "source": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_btn_radio_material.xml"
     },
     {
-        "merged": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
-        "source": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_edit_text_material.xml"
+        "merged": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
+        "source": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.1\\res\\drawable\\design_fab_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\rodri\\Documents\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon.png",
+        "source": "C:\\Users\\rodri\\Documents\\QiraPortaria\\Qira Portaria\\app\\src\\main\\res\\drawable\\icon.png"
     },
     {
         "merged": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
@@ -68,24 +156,72 @@
         "source": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
     },
     {
-        "merged": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
-        "source": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_seekbar_thumb_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon.png",
-        "source": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\src\\main\\res\\drawable\\icon.png"
-    },
-    {
-        "merged": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\proverseguro.png",
-        "source": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\src\\main\\res\\drawable\\proverseguro.png"
-    },
-    {
         "merged": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\circle_button.xml",
         "source": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\src\\main\\res\\drawable\\circle_button.xml"
     },
     {
-        "merged": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
-        "source": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_seekbar_track_material.xml"
+        "merged": "C:\\Users\\rodri\\Documents\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\logovivero.png",
+        "source": "C:\\Users\\rodri\\Documents\\QiraPortaria\\Qira Portaria\\app\\src\\main\\res\\drawable\\logovivero.png"
+    },
+    {
+        "merged": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\coletivocasa3.png",
+        "source": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\src\\main\\res\\drawable\\coletivocasa3.png"
+    },
+    {
+        "merged": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\logo_ilha.png",
+        "source": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\src\\main\\res\\drawable\\logo_ilha.png"
+    },
+    {
+        "merged": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\rodri\\Documents\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\peregrino.jpg",
+        "source": "C:\\Users\\rodri\\Documents\\QiraPortaria\\Qira Portaria\\app\\src\\main\\res\\drawable\\peregrino.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_light.xml",
+        "source": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_dialog_material_background_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\buttton_border.xml",
+        "source": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\src\\main\\res\\drawable\\buttton_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\rodri\\Documents\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\rodri\\Documents\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\rodri\\Documents\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_record.xml",
+        "source": "C:\\Users\\rodri\\Documents\\QiraPortaria\\Qira Portaria\\app\\src\\main\\res\\drawable\\btn_record.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\nauweb.jpg",
+        "source": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\src\\main\\res\\drawable\\nauweb.jpg"
+    },
+    {
+        "merged": "C:\\Users\\rodri\\Documents\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "C:\\Users\\rodri\\Documents\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\rodri\\Documents\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\logo_ilha.png",
+        "source": "C:\\Users\\rodri\\Documents\\QiraPortaria\\Qira Portaria\\app\\src\\main\\res\\drawable\\logo_ilha.png"
+    },
+    {
+        "merged": "C:\\Users\\rodri\\Documents\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_full_material.xml",
+        "source": "C:\\Users\\rodri\\Documents\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_ratingbar_full_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\rodri\\Documents\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\rodri\\Documents\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\rodri\\Documents\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\rodri\\Documents\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_item_background_holo_dark.xml"
     },
     {
         "merged": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
@@ -96,79 +232,115 @@
         "source": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_item_background_holo_light.xml"
     },
     {
-        "merged": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\coletivocasa3.png",
-        "source": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\src\\main\\res\\drawable\\coletivocasa3.png"
+        "merged": "C:\\Users\\rodri\\Documents\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\rodri\\Documents\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_list_selector_holo_dark.xml"
     },
     {
         "merged": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\logovivero.png",
         "source": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\src\\main\\res\\drawable\\logovivero.png"
     },
     {
-        "merged": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
-        "source": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_btn_borderless_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\logo_ilha.png",
-        "source": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\src\\main\\res\\drawable\\logo_ilha.png"
-    },
-    {
-        "merged": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_light.xml",
-        "source": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_dialog_material_background_light.xml"
+        "merged": "C:\\Users\\rodri\\Documents\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\logoimaginario.png",
+        "source": "C:\\Users\\rodri\\Documents\\QiraPortaria\\Qira Portaria\\app\\src\\main\\res\\drawable\\logoimaginario.png"
     },
     {
         "merged": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
         "source": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_list_selector_holo_light.xml"
     },
     {
-        "merged": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\buttton_border.xml",
-        "source": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\src\\main\\res\\drawable\\buttton_border.xml"
-    },
-    {
         "merged": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
         "source": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_cab_background_top_material.xml"
     },
     {
-        "merged": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
-        "source": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
-    },
-    {
-        "merged": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\nauweb.jpg",
-        "source": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\src\\main\\res\\drawable\\nauweb.jpg"
+        "merged": "C:\\Users\\rodri\\Documents\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Users\\rodri\\Documents\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_btn_borderless_material.xml"
     },
     {
         "merged": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_speak_normal.png",
         "source": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\src\\main\\res\\drawable\\btn_speak_normal.png"
     },
     {
-        "merged": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
-        "source": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.1\\res\\drawable\\design_snackbar_background.xml"
+        "merged": "C:\\Users\\rodri\\Documents\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "C:\\Users\\rodri\\Documents\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_ratingbar_indicator_material.xml"
     },
     {
-        "merged": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\circle_border.xml",
-        "source": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\src\\main\\res\\drawable\\circle_border.xml"
+        "merged": "C:\\Users\\rodri\\Documents\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\circle_button.xml",
+        "source": "C:\\Users\\rodri\\Documents\\QiraPortaria\\Qira Portaria\\app\\src\\main\\res\\drawable\\circle_button.xml"
     },
     {
-        "merged": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
-        "source": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_text_cursor_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_speak_selected.png",
-        "source": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\src\\main\\res\\drawable\\btn_speak_selected.png"
-    },
-    {
-        "merged": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_record.xml",
-        "source": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\src\\main\\res\\drawable\\btn_record.xml"
-    },
-    {
-        "merged": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
-        "source": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_tab_indicator_material.xml"
+        "merged": "C:\\Users\\rodri\\Documents\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_speak_pressed.png",
+        "source": "C:\\Users\\rodri\\Documents\\QiraPortaria\\Qira Portaria\\app\\src\\main\\res\\drawable\\btn_speak_pressed.png"
     },
     {
         "merged": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_dark.xml",
         "source": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_dialog_material_background_dark.xml"
     },
     {
+        "merged": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_record.xml",
+        "source": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\src\\main\\res\\drawable\\btn_record.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_speak_selected.png",
+        "source": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\src\\main\\res\\drawable\\btn_speak_selected.png"
+    },
+    {
+        "merged": "C:\\Users\\rodri\\Documents\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\nauweb.jpg",
+        "source": "C:\\Users\\rodri\\Documents\\QiraPortaria\\Qira Portaria\\app\\src\\main\\res\\drawable\\nauweb.jpg"
+    },
+    {
+        "merged": "C:\\Users\\rodri\\Documents\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\rodri\\Documents\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\rodri\\Documents\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\rodri\\Documents\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\rodri\\Documents\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "C:\\Users\\rodri\\Documents\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
+        "source": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.1\\res\\drawable\\design_snackbar_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\rodri\\Documents\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_speak_selected.png",
+        "source": "C:\\Users\\rodri\\Documents\\QiraPortaria\\Qira Portaria\\app\\src\\main\\res\\drawable\\btn_speak_selected.png"
+    },
+    {
+        "merged": "C:\\Users\\rodri\\Documents\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\rodri\\Documents\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\circle_border.xml",
+        "source": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\src\\main\\res\\drawable\\circle_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\rodri\\Documents\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\rodri\\Documents\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\rodri\\Documents\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\rodri\\Documents\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\rodri\\Documents\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\rodri\\Documents\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
         "merged": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
         "source": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\rodri\\Documents\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
+        "source": "C:\\Users\\rodri\\Documents\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.1\\res\\drawable\\design_snackbar_background.xml"
     }
 ]

@@ -2,74 +2,74 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\jars\libs\internal_impl-23.2.1.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
-        <dex dex="C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\pre-dexed\debug\internal_impl-23.2.1_0b943dbdeded4f9917e5bc3598217fa0b8ece5a0.jar" />
-    </item>
-    <item
-        jar="C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.2.1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="e3885783ff8926ed9e2fdcd16816c2e1e73e7aee">
-        <dex dex="C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-23.2.1_bd37337c2f7c556cad80fa834c1bfff3a06b8bae.jar" />
-    </item>
-    <item
-        jar="C:\Users\Rodrigo\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.2.1\support-annotations-23.2.1.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
-        <dex dex="C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\pre-dexed\debug\support-annotations-23.2.1_8df0636fdfd1070ba61901567e2a46ecaa389227.jar" />
-    </item>
-    <item
-        jar="C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\pl.bclogic\pulsator4droid\1.0.2\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="319eb39b44457f4dc86d7c31372dc3a8edb6ca80">
-        <dex dex="C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\pre-dexed\debug\pl.bclogic-pulsator4droid-1.0.2_37675c2c48dcc9114f69358dd0d2d8d533d614c1.jar" />
-    </item>
-    <item
-        jar="C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.github.markushi\circlebutton\1.1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="ebe3b1f14fa79ba3cd1588acda4e6517ee9fe611">
-        <dex dex="C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\pre-dexed\debug\com.github.markushi-circlebutton-1.1_b0e8c950fc61b0a81581047c04adc9053e1d7fa8.jar" />
-    </item>
-    <item
-        jar="C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.1\jars\classes.jar"
+        jar="C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.1\jars\classes.jar"
         jumboMode="false"
         revision="23.0.3"
         sha1="e4d0cbb0b999604b349062f0214a0a228a7fd151">
-        <dex dex="C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.2.1_2f6b3676f0e57a337b4939ba02c9dd96c6fa1715.jar" />
+        <dex dex="C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.2.1_90abbcd7cddd6d5d25633556969023a52efa2080.jar" />
     </item>
     <item
-        jar="C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="3469cb457f10f74c28cbc05f069b6c894f6cbdd0">
-        <dex dex="C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.2.1_2a0c0ced576e1cc89e98d81e1edb14b596d5125a.jar" />
-    </item>
-    <item
-        jar="C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.android.support\design\23.2.1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="72961d8b453b46e277702f18de9d210bc019e36e">
-        <dex dex="C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\pre-dexed\debug\com.android.support-design-23.2.1_d4c62afabf7ec4834a0ea33896a0840d5b3b90f4.jar" />
-    </item>
-    <item
-        jar="C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\jars\classes.jar"
+        jar="C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\jars\classes.jar"
         jumboMode="false"
         revision="23.0.3"
         sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
-        <dex dex="C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.2.1_04dcf4bfb7568519f9aac2f1799cbbfc52de4db5.jar" />
+        <dex dex="C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.2.1_7af484407e8848890519d96320312a8e9b87e09e.jar" />
     </item>
     <item
-        jar="C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.1\jars\classes.jar"
+        jar="C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="e3885783ff8926ed9e2fdcd16816c2e1e73e7aee">
+        <dex dex="C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-23.2.1_dd65f00a6a210bf24373bb314c296e35263cd913.jar" />
+    </item>
+    <item
+        jar="C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\jars\libs\internal_impl-23.2.1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
+        <dex dex="C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\build\intermediates\pre-dexed\debug\internal_impl-23.2.1_4bebc7b7215061ecdae25ef9377e567f0d588b43.jar" />
+    </item>
+    <item
+        jar="C:\Users\rodri\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.2.1\support-annotations-23.2.1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
+        <dex dex="C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\build\intermediates\pre-dexed\debug\support-annotations-23.2.1_2f8b644551a3ed4c2098b9b4f359ac1d68a8bad2.jar" />
+    </item>
+    <item
+        jar="C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.android.support\design\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="72961d8b453b46e277702f18de9d210bc019e36e">
+        <dex dex="C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\build\intermediates\pre-dexed\debug\com.android.support-design-23.2.1_2d0c09a989dce0de2150f7e9a9c3206c24d3b7b2.jar" />
+    </item>
+    <item
+        jar="C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.github.markushi\circlebutton\1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="ebe3b1f14fa79ba3cd1588acda4e6517ee9fe611">
+        <dex dex="C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\build\intermediates\pre-dexed\debug\com.github.markushi-circlebutton-1.1_5e5c6998280e74ae239343826a1ac29f7991da4a.jar" />
+    </item>
+    <item
+        jar="C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.1\jars\classes.jar"
         jumboMode="false"
         revision="23.0.3"
         sha1="673d77a5bbddd766037f088e775df525c46407f0">
-        <dex dex="C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.2.1_e75468d86b830a751406edb0f7b668180b54d348.jar" />
+        <dex dex="C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.2.1_037f5b882a09a7cbfd2a3d6821333f3e9806da4a.jar" />
+    </item>
+    <item
+        jar="C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\pl.bclogic\pulsator4droid\1.0.2\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="319eb39b44457f4dc86d7c31372dc3a8edb6ca80">
+        <dex dex="C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\build\intermediates\pre-dexed\debug\pl.bclogic-pulsator4droid-1.0.2_ff754881d06e5aef6f3c61bd1cdd69649b6ba2bf.jar" />
+    </item>
+    <item
+        jar="C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="3469cb457f10f74c28cbc05f069b6c894f6cbdd0">
+        <dex dex="C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.2.1_7b168028dd566dbf415efd978dea92be3800bf76.jar" />
     </item>
 
 </items>
