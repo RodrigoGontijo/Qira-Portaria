@@ -44,7 +44,7 @@ import java.text.ParseException;
 public class WalkieTalkieActivity extends AppCompatActivity {
 
     public String sipAddress = null;
-
+    public static final String ACTION_CLOSE = "com.qira.portaria.ACTION_CLOSE";
     public SipManager manager = null;
     public SipProfile me = null;
     public SipAudioCall call = null;;
@@ -254,10 +254,8 @@ public class WalkieTalkieActivity extends AppCompatActivity {
         }
     }
 
-    /**
-     * Make an outgoing call.
-     */
-    public void initiateCall() {
+
+    public void initiateCall(final String roomName, final String roomNumber) {
         SharedPreferences sharedPreferencesState = getSharedPreferences("state", MODE_PRIVATE);
         final SharedPreferences.Editor editor = sharedPreferencesState.edit();
 
@@ -278,6 +276,11 @@ public class WalkieTalkieActivity extends AppCompatActivity {
                     }
                     editor.putString("call", call.toString());
                     editor.apply();
+
+                    Intent intent = new Intent(getBaseContext(),CallAcitivity.class);
+                    intent.putExtra("RoomName", roomName);
+                    intent.putExtra("RoomNumber", roomNumber);
+                    startActivity(intent);
                 }
 
                 @Override
@@ -285,6 +288,10 @@ public class WalkieTalkieActivity extends AppCompatActivity {
                     editor.putString("registrationState", "Ready");
                     callReceiver.kill();
                     editor.apply();
+
+                    Intent in = new Intent(ACTION_CLOSE);
+                    sendBroadcast(in);
+
                 }
             };
 
@@ -352,7 +359,7 @@ public class WalkieTalkieActivity extends AppCompatActivity {
                 }
                 //sipAddress = "8196@192.168.1.2";
                 sipAddress = "8201@172.16.100.251:5566";
-                initiateCall();
+                initiateCall("COLETIVO IMAGINÁRIO","SALA 01");
             }
         });
 
@@ -372,7 +379,7 @@ public class WalkieTalkieActivity extends AppCompatActivity {
                     }
                 }
                 sipAddress = "8202@172.16.100.251:5566";
-                initiateCall();
+                initiateCall("NAUWEB","SALA 02");
             }
         });
 
@@ -392,7 +399,7 @@ public class WalkieTalkieActivity extends AppCompatActivity {
                     }
                 }
                 sipAddress = "8203@172.16.100.251:5566";
-                initiateCall();
+                initiateCall("COLETIVO CASA 3","SALA 03");
             }
         });
 
@@ -412,7 +419,7 @@ public class WalkieTalkieActivity extends AppCompatActivity {
                     }
                 }
                 sipAddress = "8204@172.16.100.251:5566";
-                initiateCall();
+                initiateCall("PROVER SEGUROS","SALA 04");
             }
         });
 
@@ -432,7 +439,7 @@ public class WalkieTalkieActivity extends AppCompatActivity {
                     }
                 }
                 sipAddress = "8205@172.16.100.251:5566";
-                initiateCall();
+                initiateCall("PEREGRINO SEGUROS","SALA 05");
 
             }
         });
@@ -452,7 +459,7 @@ public class WalkieTalkieActivity extends AppCompatActivity {
                     }
                 }
                 sipAddress = "8206@172.16.100.251:5566";
-                initiateCall();
+                initiateCall("VIVERO/COBALTO","SALA 06");
             }
         });
 
