@@ -332,6 +332,10 @@
         "source": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
+        "merged": "C:\\Users\\rodri\\Documents\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_call.xml",
+        "source": "C:\\Users\\rodri\\Documents\\QiraPortaria\\Qira Portaria\\app\\src\\main\\res\\layout\\activity_call.xml"
+    },
+    {
         "merged": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
         "source": "C:\\Users\\Rodrigo\\Desktop\\QiraPortaria\\Qira Portaria\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\notification_template_part_time.xml"
     },

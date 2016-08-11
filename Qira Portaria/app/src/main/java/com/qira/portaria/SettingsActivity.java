@@ -7,10 +7,9 @@ import android.net.NetworkInfo;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
-import android.widget.Toast;
-
-import org.w3c.dom.Text;
 
 
 public class SettingsActivity extends AppCompatActivity {
@@ -19,6 +18,7 @@ public class SettingsActivity extends AppCompatActivity {
     private TextView wifiState;
     private TextView sipAdress;
     private TextView call;
+    private Button backButton;
     public Handler h = new Handler();
 
 
@@ -32,12 +32,24 @@ public class SettingsActivity extends AppCompatActivity {
         checkStates();
     }
 
+    @Override
+    public void onResume(){
+        super.onResume();
+        backButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                onBackPressed();
+            }
+        });
+    }
+
 
     public void setViews() {
         registrationState = (TextView) findViewById(R.id.registrationState);
         wifiState = (TextView) findViewById(R.id.WifiState);
         sipAdress = (TextView) findViewById(R.id.sipAdress);
         call = (TextView) findViewById(R.id.callState);
+        backButton = (Button) findViewById(R.id.back_button);
     }
 
     public void checkWifiConnection() {
