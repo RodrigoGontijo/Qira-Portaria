@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/logo_call"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:src="@drawable/logo_ilha" />
+
+
+    <TextView
+        android:id="@+id/room_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo_call"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:text="SALA 06"
+        android:textColor="@android:color/white"
+        android:textSize="26sp" />
+
+
+    <TextView
+        android:id="@+id/room_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/room_number"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="Vivero Arquitetura"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:id="@+id/calling"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/room_name"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text="CHAMANDO"
+        android:textColor="@android:color/white"
+        android:textSize="28sp" />
+
+
+</RelativeLayout>

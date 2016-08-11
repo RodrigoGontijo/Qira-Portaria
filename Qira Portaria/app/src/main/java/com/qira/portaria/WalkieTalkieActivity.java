@@ -47,7 +47,7 @@ public class WalkieTalkieActivity extends AppCompatActivity {
 
     public SipManager manager = null;
     public SipProfile me = null;
-    public SipAudioCall call = null;
+    public SipAudioCall call = null;;
     public Toast toast;
     public IncomingCallReceiver callReceiver;
     public Handler h = new Handler();
