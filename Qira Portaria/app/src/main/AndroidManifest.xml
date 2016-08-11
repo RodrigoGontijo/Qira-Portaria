@@ -51,6 +51,9 @@
         <receiver
             android:name=".IncomingCallReceiver"
             android:label="Call Receiver" />
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="c7c54aeec72041be6cfa2f90c1a46a0620061ba8" />
     </application>
     <uses-sdk android:minSdkVersion="15" />
 

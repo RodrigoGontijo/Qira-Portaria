@@ -63,6 +63,10 @@
         <receiver
             android:name="com.qira.portaria.IncomingCallReceiver"
             android:label="Call Receiver" />
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="c7c54aeec72041be6cfa2f90c1a46a0620061ba8" />
     </application>
 
 </manifest>
