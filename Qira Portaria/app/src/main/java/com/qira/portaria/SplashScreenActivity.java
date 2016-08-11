@@ -4,9 +4,7 @@ package com.qira.portaria;
 import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;
 import android.content.Intent;
-import android.media.Image;
 import android.os.Bundle;
-
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.WindowManager;
@@ -58,10 +56,12 @@ public class SplashScreenActivity extends AppCompatActivity {
     }
 
     private void setClickListerner() {
-        mAnimationSet.end();
+
         relativeLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                mAnimationSet.end();
+                pulsator.stop();
                 Intent mainActivity = new Intent(getBaseContext(),
                         WalkieTalkieActivity.class);
                 startActivity(mainActivity);
