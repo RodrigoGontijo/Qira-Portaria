@@ -1,207 +1,207 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:3:1-77:12
+ADDED from C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:3:1-77:12
 	xmlns:android
-		ADDED from C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:3:11-69
+		ADDED from C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:3:11-69
 	package
-		ADDED from C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:4:5-32
-		INJECTED from C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:4:5-32
+		INJECTED from C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml
 application
-ADDED from C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:6:5-57:19
-MERGED from [com.android.support:appcompat-v7:23.2.1] C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.1\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-v4:23.2.1] C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:animated-vector-drawable:23.2.1] C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.1\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-vector-drawable:23.2.1] C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.1\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-v4:23.2.1] C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-vector-drawable:23.2.1] C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.1\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-v4:23.2.1] C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:design:23.2.1] C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.android.support\design\23.2.1\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.2.1] C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:appcompat-v7:23.2.1] C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.1\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-v4:23.2.1] C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:animated-vector-drawable:23.2.1] C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.1\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-vector-drawable:23.2.1] C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.1\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-v4:23.2.1] C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-vector-drawable:23.2.1] C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.1\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-v4:23.2.1] C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.2.1] C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\AndroidManifest.xml:22:5-20
-MERGED from [pl.bclogic:pulsator4droid:1.0.2] C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\pl.bclogic\pulsator4droid\1.0.2\AndroidManifest.xml:11:5-15:19
-MERGED from [com.github.markushi:circlebutton:1.1] C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.github.markushi\circlebutton\1.1\AndroidManifest.xml:9:5-20
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.1] C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\crashlytics\2.6.1\AndroidManifest.xml:11:5-20
-MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.10] C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\crashlytics-core\2.3.10\AndroidManifest.xml:11:5-20
-MERGED from [com.crashlytics.sdk.android:answers:1.3.8] C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\answers\1.3.8\AndroidManifest.xml:11:5-20
-MERGED from [io.fabric.sdk.android:fabric:1.3.12] C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\io.fabric.sdk.android\fabric\1.3.12\AndroidManifest.xml:27:5-20
-MERGED from [io.fabric.sdk.android:fabric:1.3.12] C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\io.fabric.sdk.android\fabric\1.3.12\AndroidManifest.xml:27:5-20
-MERGED from [com.crashlytics.sdk.android:beta:1.2.1] C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\beta\1.2.1\AndroidManifest.xml:11:5-20
-MERGED from [io.fabric.sdk.android:fabric:1.3.12] C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\io.fabric.sdk.android\fabric\1.3.12\AndroidManifest.xml:27:5-20
-MERGED from [io.fabric.sdk.android:fabric:1.3.12] C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\io.fabric.sdk.android\fabric\1.3.12\AndroidManifest.xml:27:5-20
-MERGED from [com.crashlytics.sdk.android:answers:1.3.8] C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\answers\1.3.8\AndroidManifest.xml:11:5-20
-MERGED from [io.fabric.sdk.android:fabric:1.3.12] C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\io.fabric.sdk.android\fabric\1.3.12\AndroidManifest.xml:27:5-20
+ADDED from C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:6:5-57:19
+MERGED from [com.android.support:appcompat-v7:23.2.1] C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:23.2.1] C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.2.1] C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.1\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.2.1] C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.1\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.2.1] C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:23.2.1] C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.1\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.2.1] C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:23.2.1] C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.android.support\design\23.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.2.1] C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.2.1] C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:23.2.1] C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.2.1] C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.1\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.2.1] C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.1\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.2.1] C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:23.2.1] C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.1\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.2.1] C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.2.1] C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\AndroidManifest.xml:22:5-20
+MERGED from [pl.bclogic:pulsator4droid:1.0.2] C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\pl.bclogic\pulsator4droid\1.0.2\AndroidManifest.xml:11:5-15:19
+MERGED from [com.github.markushi:circlebutton:1.1] C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.github.markushi\circlebutton\1.1\AndroidManifest.xml:9:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.1] C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\crashlytics\2.6.1\AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.10] C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\crashlytics-core\2.3.10\AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.3.8] C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\answers\1.3.8\AndroidManifest.xml:11:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.3.12] C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\io.fabric.sdk.android\fabric\1.3.12\AndroidManifest.xml:27:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.3.12] C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\io.fabric.sdk.android\fabric\1.3.12\AndroidManifest.xml:27:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.1] C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\beta\1.2.1\AndroidManifest.xml:11:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.3.12] C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\io.fabric.sdk.android\fabric\1.3.12\AndroidManifest.xml:27:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.3.12] C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\io.fabric.sdk.android\fabric\1.3.12\AndroidManifest.xml:27:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.3.8] C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\answers\1.3.8\AndroidManifest.xml:11:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.3.12] C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\io.fabric.sdk.android\fabric\1.3.12\AndroidManifest.xml:27:5-20
 	android:supportsRtl
-		ADDED from [pl.bclogic:pulsator4droid:1.0.2] C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\pl.bclogic\pulsator4droid\1.0.2\AndroidManifest.xml:14:9-35
+		ADDED from [pl.bclogic:pulsator4droid:1.0.2] C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\pl.bclogic\pulsator4droid\1.0.2\AndroidManifest.xml:14:9-35
 	android:allowBackup
-		ADDED from [pl.bclogic:pulsator4droid:1.0.2] C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\pl.bclogic\pulsator4droid\1.0.2\AndroidManifest.xml:12:9-35
+		ADDED from [pl.bclogic:pulsator4droid:1.0.2] C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\pl.bclogic\pulsator4droid\1.0.2\AndroidManifest.xml:12:9-35
 	android:label
-		ADDED from C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:9:9-41
+		ADDED from C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:9:9-41
 	android:icon
-		ADDED from C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:8:9-38
+		ADDED from C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:8:9-38
 	android:hardwareAccelerated
-		ADDED from C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:7:9-43
+		ADDED from C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:7:9-43
 activity#com.qira.portaria.SplashScreenActivity
-ADDED from C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:11:9-20:20
+ADDED from C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:11:9-20:20
 	android:configChanges
-		ADDED from C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:13:13-63
+		ADDED from C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:13:13-63
 	android:theme
-		ADDED from C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:15:13-59
+		ADDED from C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:15:13-59
 	android:parentActivityName
-		ADDED from C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:14:13-63
+		ADDED from C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:14:13-63
 	android:name
-		ADDED from C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:12:13-49
+		ADDED from C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:12:13-49
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:16:13-19:29
+ADDED from C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:16:13-19:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:17:17-69
+ADDED from C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:17:17-69
 	android:name
-		ADDED from C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:17:25-66
+		ADDED from C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:17:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:18:17-77
+ADDED from C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:18:17-77
 	android:name
-		ADDED from C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:18:27-74
+		ADDED from C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:18:27-74
 activity#com.qira.portaria.WalkieTalkieActivity
-ADDED from C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:22:9-27:20
+ADDED from C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:22:9-27:20
 	android:configChanges
-		ADDED from C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:24:13-63
+		ADDED from C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:24:13-63
 	android:theme
-		ADDED from C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:25:13-59
+		ADDED from C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:25:13-59
 	android:name
-		ADDED from C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:23:13-49
+		ADDED from C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:23:13-49
 activity#com.qira.portaria.SipSettings
-ADDED from C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:30:9-35:20
+ADDED from C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:30:9-35:20
 	android:label
-		ADDED from C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:32:13-44
+		ADDED from C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:32:13-44
 	android:theme
-		ADDED from C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:33:13-59
+		ADDED from C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:33:13-59
 	android:name
-		ADDED from C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:31:13-40
+		ADDED from C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:31:13-40
 activity#com.qira.portaria.SettingsActivity
-ADDED from C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:37:9-41:20
+ADDED from C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:37:9-41:20
 	android:theme
-		ADDED from C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:39:13-59
+		ADDED from C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:39:13-59
 	android:name
-		ADDED from C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:38:13-45
+		ADDED from C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:38:13-45
 activity#com.qira.portaria.CallAcitivity
-ADDED from C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:44:9-48:20
+ADDED from C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:44:9-48:20
 	android:theme
-		ADDED from C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:46:13-59
+		ADDED from C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:46:13-59
 	android:name
-		ADDED from C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:45:13-42
+		ADDED from C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:45:13-42
 receiver#com.qira.portaria.IncomingCallReceiver
-ADDED from C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:51:9-53:45
+ADDED from C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:51:9-53:45
 	android:label
-		ADDED from C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:53:13-42
+		ADDED from C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:53:13-42
 	android:name
-		ADDED from C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:52:13-49
+		ADDED from C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:52:13-49
 meta-data#io.fabric.ApiKey
-ADDED from C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:54:9-56:72
+ADDED from C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:54:9-56:72
 	android:name
-		ADDED from C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:55:13-44
+		ADDED from C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:55:13-44
 	android:value
-		ADDED from C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:56:13-69
+		ADDED from C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:56:13-69
 uses-sdk
-ADDED from C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:58:5-44
-MERGED from [com.android.support:appcompat-v7:23.2.1] C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.1\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:support-v4:23.2.1] C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:animated-vector-drawable:23.2.1] C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.1\AndroidManifest.xml:5:5-44
-MERGED from [com.android.support:support-vector-drawable:23.2.1] C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.1\AndroidManifest.xml:5:5-43
-MERGED from [com.android.support:support-v4:23.2.1] C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-vector-drawable:23.2.1] C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.1\AndroidManifest.xml:5:5-43
-MERGED from [com.android.support:support-v4:23.2.1] C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:design:23.2.1] C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.android.support\design\23.2.1\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.2.1] C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:appcompat-v7:23.2.1] C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.1\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:support-v4:23.2.1] C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:animated-vector-drawable:23.2.1] C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.1\AndroidManifest.xml:5:5-44
-MERGED from [com.android.support:support-vector-drawable:23.2.1] C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.1\AndroidManifest.xml:5:5-43
-MERGED from [com.android.support:support-v4:23.2.1] C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-vector-drawable:23.2.1] C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.1\AndroidManifest.xml:5:5-43
-MERGED from [com.android.support:support-v4:23.2.1] C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:23.2.1] C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.2.1\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.2.1] C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\AndroidManifest.xml:20:5-43
-MERGED from [pl.bclogic:pulsator4droid:1.0.2] C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\pl.bclogic\pulsator4droid\1.0.2\AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.markushi:circlebutton:1.1] C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.github.markushi\circlebutton\1.1\AndroidManifest.xml:7:5-44
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.1] C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\crashlytics\2.6.1\AndroidManifest.xml:7:5-43
-MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.10] C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\crashlytics-core\2.3.10\AndroidManifest.xml:7:5-43
-MERGED from [com.crashlytics.sdk.android:answers:1.3.8] C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\answers\1.3.8\AndroidManifest.xml:7:5-43
-MERGED from [io.fabric.sdk.android:fabric:1.3.12] C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\io.fabric.sdk.android\fabric\1.3.12\AndroidManifest.xml:23:5-43
-MERGED from [io.fabric.sdk.android:fabric:1.3.12] C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\io.fabric.sdk.android\fabric\1.3.12\AndroidManifest.xml:23:5-43
-MERGED from [com.crashlytics.sdk.android:beta:1.2.1] C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\beta\1.2.1\AndroidManifest.xml:7:5-43
-MERGED from [io.fabric.sdk.android:fabric:1.3.12] C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\io.fabric.sdk.android\fabric\1.3.12\AndroidManifest.xml:23:5-43
-MERGED from [io.fabric.sdk.android:fabric:1.3.12] C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\io.fabric.sdk.android\fabric\1.3.12\AndroidManifest.xml:23:5-43
-MERGED from [com.crashlytics.sdk.android:answers:1.3.8] C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\answers\1.3.8\AndroidManifest.xml:7:5-43
-MERGED from [io.fabric.sdk.android:fabric:1.3.12] C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\io.fabric.sdk.android\fabric\1.3.12\AndroidManifest.xml:23:5-43
+ADDED from C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:58:5-44
+MERGED from [com.android.support:appcompat-v7:23.2.1] C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.1\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:23.2.1] C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:animated-vector-drawable:23.2.1] C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.1\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.2.1] C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.1\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.2.1] C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:23.2.1] C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.1\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.2.1] C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:23.2.1] C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.android.support\design\23.2.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.2.1] C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.2.1] C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.1\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:23.2.1] C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:animated-vector-drawable:23.2.1] C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.1\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.2.1] C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.1\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.2.1] C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:23.2.1] C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.1\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.2.1] C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.2.1] C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.2.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.2.1] C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\AndroidManifest.xml:20:5-43
+MERGED from [pl.bclogic:pulsator4droid:1.0.2] C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\pl.bclogic\pulsator4droid\1.0.2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.markushi:circlebutton:1.1] C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.github.markushi\circlebutton\1.1\AndroidManifest.xml:7:5-44
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.1] C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\crashlytics\2.6.1\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.10] C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\crashlytics-core\2.3.10\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.3.8] C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\answers\1.3.8\AndroidManifest.xml:7:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.3.12] C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\io.fabric.sdk.android\fabric\1.3.12\AndroidManifest.xml:23:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.3.12] C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\io.fabric.sdk.android\fabric\1.3.12\AndroidManifest.xml:23:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.2.1] C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\beta\1.2.1\AndroidManifest.xml:7:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.3.12] C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\io.fabric.sdk.android\fabric\1.3.12\AndroidManifest.xml:23:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.3.12] C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\io.fabric.sdk.android\fabric\1.3.12\AndroidManifest.xml:23:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.3.8] C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\answers\1.3.8\AndroidManifest.xml:7:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.3.12] C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\io.fabric.sdk.android\fabric\1.3.12\AndroidManifest.xml:23:5-43
 	android:targetSdkVersion
-		INJECTED from C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		ADDED from C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:58:15-41
-		INJECTED from C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:58:15-41
+		INJECTED from C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:23.2.1] C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.1\AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:appcompat-v7:23.2.1] C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.1\AndroidManifest.xml:23:9-75
 uses-permission#android.permission.USE_SIP
-ADDED from C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:60:5-66
+ADDED from C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:60:5-66
 	android:name
-		ADDED from C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:60:22-63
+		ADDED from C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:60:22-63
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:61:5-67
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.1] C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\crashlytics\2.6.1\AndroidManifest.xml:9:5-67
-MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.10] C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\crashlytics-core\2.3.10\AndroidManifest.xml:9:5-67
-MERGED from [com.crashlytics.sdk.android:answers:1.3.8] C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\answers\1.3.8\AndroidManifest.xml:9:5-67
-MERGED from [io.fabric.sdk.android:fabric:1.3.12] C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\io.fabric.sdk.android\fabric\1.3.12\AndroidManifest.xml:25:5-67
-MERGED from [io.fabric.sdk.android:fabric:1.3.12] C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\io.fabric.sdk.android\fabric\1.3.12\AndroidManifest.xml:25:5-67
-MERGED from [com.crashlytics.sdk.android:beta:1.2.1] C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\beta\1.2.1\AndroidManifest.xml:9:5-67
-MERGED from [io.fabric.sdk.android:fabric:1.3.12] C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\io.fabric.sdk.android\fabric\1.3.12\AndroidManifest.xml:25:5-67
-MERGED from [io.fabric.sdk.android:fabric:1.3.12] C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\io.fabric.sdk.android\fabric\1.3.12\AndroidManifest.xml:25:5-67
-MERGED from [com.crashlytics.sdk.android:answers:1.3.8] C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\answers\1.3.8\AndroidManifest.xml:9:5-67
-MERGED from [io.fabric.sdk.android:fabric:1.3.12] C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\io.fabric.sdk.android\fabric\1.3.12\AndroidManifest.xml:25:5-67
+ADDED from C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:61:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.1] C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\crashlytics\2.6.1\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.10] C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\crashlytics-core\2.3.10\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.3.8] C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\answers\1.3.8\AndroidManifest.xml:9:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.3.12] C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\io.fabric.sdk.android\fabric\1.3.12\AndroidManifest.xml:25:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.3.12] C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\io.fabric.sdk.android\fabric\1.3.12\AndroidManifest.xml:25:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.1] C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\beta\1.2.1\AndroidManifest.xml:9:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.3.12] C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\io.fabric.sdk.android\fabric\1.3.12\AndroidManifest.xml:25:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.3.12] C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\io.fabric.sdk.android\fabric\1.3.12\AndroidManifest.xml:25:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.3.8] C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\answers\1.3.8\AndroidManifest.xml:9:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.3.12] C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\io.fabric.sdk.android\fabric\1.3.12\AndroidManifest.xml:25:5-67
 	android:name
-		ADDED from C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:61:22-64
+		ADDED from C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:61:22-64
 uses-permission#android.permission.VIBRATE
-ADDED from C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:62:5-66
+ADDED from C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:62:5-66
 	android:name
-		ADDED from C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:62:22-63
+		ADDED from C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:62:22-63
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:63:5-76
+ADDED from C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:63:5-76
 	android:name
-		ADDED from C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:63:22-73
+		ADDED from C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:63:22-73
 uses-permission#android.permission.WAKE_LOCK
-ADDED from C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:64:5-68
+ADDED from C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:64:5-68
 	android:name
-		ADDED from C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:64:22-65
+		ADDED from C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:64:22-65
 uses-permission#android.permission.RECORD_AUDIO
-ADDED from C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:65:5-71
+ADDED from C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:65:5-71
 	android:name
-		ADDED from C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:65:22-68
+		ADDED from C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:65:22-68
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:66:5-79
+ADDED from C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:66:5-79
 	android:name
-		ADDED from C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:66:22-76
+		ADDED from C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:66:22-76
 uses-feature#android.hardware.sip.voip
-ADDED from C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:68:5-70:35
+ADDED from C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:68:5-70:35
 	android:required
-		ADDED from C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:70:9-32
+		ADDED from C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:70:9-32
 	android:name
-		ADDED from C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:69:9-49
+		ADDED from C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:69:9-49
 uses-feature#android.hardware.wifi
-ADDED from C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:71:5-73:35
+ADDED from C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:71:5-73:35
 	android:required
-		ADDED from C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:73:9-32
+		ADDED from C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:73:9-32
 	android:name
-		ADDED from C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:72:9-45
+		ADDED from C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:72:9-45
 uses-feature#android.hardware.microphone
-ADDED from C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:74:5-76:35
+ADDED from C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:74:5-76:35
 	android:required
-		ADDED from C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:76:9-32
+		ADDED from C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:76:9-32
 	android:name
-		ADDED from C:\Users\rodri\Documents\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:75:9-51
+		ADDED from C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\src\main\AndroidManifest.xml:75:9-51

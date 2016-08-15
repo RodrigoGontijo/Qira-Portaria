@@ -47,5 +47,38 @@
         android:textColor="@android:color/white"
         android:textSize="28sp" />
 
+    <ImageView
+        android:id="@+id/call_icon_1"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_below="@+id/calling"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="17dp"
+        android:layout_toLeftOf="@+id/call_icon_2"
+        android:background="@drawable/circle_button" />
+
+
+    <ImageView
+        android:id="@+id/call_icon_2"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_below="@+id/calling"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="17dp"
+        android:background="@drawable/circle_button" />
+
+    <ImageView
+        android:id="@+id/call_icon_3"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_below="@+id/calling"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="17dp"
+        android:layout_toRightOf="@id/call_icon_2"
+        android:background="@drawable/circle_button" />
+
 
 </RelativeLayout>

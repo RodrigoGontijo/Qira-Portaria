@@ -336,7 +336,7 @@ public class WalkieTalkieActivity extends AppCompatActivity {
                 if (clicksOnLogo >= 4) {
                     clicksOnLogo = 0;
                     Intent settingsActivity = new Intent(getBaseContext(),
-                            SettingsActivity.class);
+                            CallAcitivity.class);
                     startActivity(settingsActivity);
                 }
             }
