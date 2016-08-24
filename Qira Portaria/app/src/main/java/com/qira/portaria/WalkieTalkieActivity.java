@@ -17,6 +17,8 @@
 package com.qira.portaria;
 
 import android.app.PendingIntent;
+import android.content.BroadcastReceiver;
+import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.SharedPreferences;
@@ -47,7 +49,8 @@ public class WalkieTalkieActivity extends AppCompatActivity {
     public static final String ACTION_CLOSE = "com.qira.portaria.ACTION_CLOSE";
     public SipManager manager = null;
     public SipProfile me = null;
-    public SipAudioCall call = null;;
+    public SipAudioCall call = null;
+    ;
     public Toast toast;
     public IncomingCallReceiver callReceiver;
     public Handler h = new Handler();
@@ -89,7 +92,7 @@ public class WalkieTalkieActivity extends AppCompatActivity {
 
         onresume++;
 
-
+        // Necessary verification to avoid multiples registrations and initializations
         if (onresume == 1) {
             initializeViews();
 
@@ -100,15 +103,36 @@ public class WalkieTalkieActivity extends AppCompatActivity {
 
             SharedPreferences sharedPreferences = getSharedPreferences("settings", MODE_PRIVATE);
             SharedPreferences.Editor editor = sharedPreferences.edit();
-            editor.putString("user", "8200");
-            editor.putString("password", "@quaecoh6Ria@");
-            editor.putString("domain", "172.16.100.251:5566");
+//            editor.putString("user", "8200");
+//            editor.putString("password", "@quaecoh6Ria@");
+//            editor.putString("domain", "172.16.100.251:5566");
 
-//        editor.putString("user", "8197");
-//        editor.putString("password", "*Aabb44cc77!*");
-//        editor.putString("domain", "192.168.1.2");
+            editor.putString("user", "8197");
+            editor.putString("password", "*Aabb44cc77!*");
+            editor.putString("domain", "192.168.1.200");
             editor.apply();
+
+
+            BroadcastReceiver broadcast_reciever = new BroadcastReceiver() {
+
+                @Override
+                public void onReceive(Context arg0, Intent intent) {
+                    String action = intent.getAction();
+                    if (action.equals("finish_call")) {
+                        try {
+                            call.endCall();
+                        } catch (SipException e) {
+                            e.printStackTrace();
+                        }
+                        callReceiver.kill();
+                    }
+                }
+            };
+            registerReceiver(broadcast_reciever, new IntentFilter("finish_call"));
+
+
         }
+
 
     }
 
@@ -259,7 +283,6 @@ public class WalkieTalkieActivity extends AppCompatActivity {
         SharedPreferences sharedPreferencesState = getSharedPreferences("state", MODE_PRIVATE);
         final SharedPreferences.Editor editor = sharedPreferencesState.edit();
 
-
         editor.putString("sipAddress", sipAddress);
         editor.apply();
         try {
@@ -277,10 +300,6 @@ public class WalkieTalkieActivity extends AppCompatActivity {
                     editor.putString("call", call.toString());
                     editor.apply();
 
-                    Intent intent = new Intent(getBaseContext(),CallAcitivity.class);
-                    intent.putExtra("RoomName", roomName);
-                    intent.putExtra("RoomNumber", roomNumber);
-                    startActivity(intent);
                 }
 
                 @Override
@@ -289,13 +308,18 @@ public class WalkieTalkieActivity extends AppCompatActivity {
                     callReceiver.kill();
                     editor.apply();
 
-                    Intent in = new Intent(ACTION_CLOSE);
-                    sendBroadcast(in);
+                    Intent intent = new Intent("finish_activity");
+                    sendBroadcast(intent);
 
                 }
             };
 
             call = manager.makeAudioCall(me.getUriString(), sipAddress, listener, 30);
+
+            Intent intent = new Intent(getBaseContext(), CallAcitivity.class);
+            intent.putExtra("RoomName", roomName);
+            intent.putExtra("RoomNumber", roomNumber);
+            startActivity(intent);
 
 
         } catch (Exception e) {
@@ -357,9 +381,10 @@ public class WalkieTalkieActivity extends AppCompatActivity {
                         }
                     }
                 }
-                //sipAddress = "8196@192.168.1.2";
-                sipAddress = "8201@172.16.100.251:5566";
-                initiateCall("COLETIVO IMAGINÁRIO","SALA 01");
+                sipAddress = "8196@192.168.1.200";
+                //sipAddress = "8201@172.16.100.251:5566";
+                initiateCall("COLETIVO IMAGINÁRIO", "SALA 01");
+
             }
         });
 
@@ -379,7 +404,7 @@ public class WalkieTalkieActivity extends AppCompatActivity {
                     }
                 }
                 sipAddress = "8202@172.16.100.251:5566";
-                initiateCall("NAUWEB","SALA 02");
+                initiateCall("NAUWEB", "SALA 02");
             }
         });
 
@@ -399,7 +424,7 @@ public class WalkieTalkieActivity extends AppCompatActivity {
                     }
                 }
                 sipAddress = "8203@172.16.100.251:5566";
-                initiateCall("COLETIVO CASA 3","SALA 03");
+                initiateCall("COLETIVO CASA 3", "SALA 03");
             }
         });
 
@@ -419,7 +444,7 @@ public class WalkieTalkieActivity extends AppCompatActivity {
                     }
                 }
                 sipAddress = "8204@172.16.100.251:5566";
-                initiateCall("PROVER SEGUROS","SALA 04");
+                initiateCall("PROVER SEGUROS", "SALA 04");
             }
         });
 
@@ -439,7 +464,7 @@ public class WalkieTalkieActivity extends AppCompatActivity {
                     }
                 }
                 sipAddress = "8205@172.16.100.251:5566";
-                initiateCall("PEREGRINO SEGUROS","SALA 05");
+                initiateCall("PEREGRINO SEGUROS", "SALA 05");
 
             }
         });
@@ -459,7 +484,7 @@ public class WalkieTalkieActivity extends AppCompatActivity {
                     }
                 }
                 sipAddress = "8206@172.16.100.251:5566";
-                initiateCall("VIVERO/COBALTO","SALA 06");
+                initiateCall("VIVERO/COBALTO", "SALA 06");
             }
         });
 
