@@ -22,6 +22,9 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.SharedPreferences;
+import android.content.pm.ApplicationInfo;
+import android.content.pm.PackageInfo;
+import android.content.pm.PackageManager;
 import android.net.sip.SipAudioCall;
 import android.net.sip.SipException;
 import android.net.sip.SipManager;
@@ -39,6 +42,7 @@ import android.widget.RelativeLayout;
 import android.widget.Toast;
 
 import java.text.ParseException;
+import java.util.List;
 
 /**
  * Handles all calling, receiving calls, and UI interaction in the WalkieTalkie app.
@@ -69,6 +73,8 @@ public class WalkieTalkieActivity extends AppCompatActivity {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
+
+
 
         super.onCreate(savedInstanceState);
         setContentView(com.qira.portaria.R.layout.activity_main);
@@ -356,11 +362,14 @@ public class WalkieTalkieActivity extends AppCompatActivity {
         logoSettings.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent settingsActivity = new Intent(getBaseContext(),
+                        SettingsActivity.class);
+//                settingsActivity.putExtra("RoomName", "teste");
+//                settingsActivity.putExtra("RoomNumber", "teste");
                 clicksOnLogo++;
                 if (clicksOnLogo >= 4) {
                     clicksOnLogo = 0;
-                    Intent settingsActivity = new Intent(getBaseContext(),
-                            CallAcitivity.class);
+
                     startActivity(settingsActivity);
                 }
             }
@@ -381,8 +390,8 @@ public class WalkieTalkieActivity extends AppCompatActivity {
                         }
                     }
                 }
-                sipAddress = "8196@192.168.1.200";
-                //sipAddress = "8201@172.16.100.251:5566";
+                //sipAddress = "8196@192.168.1.200";
+                sipAddress = "8201@172.16.100.251:5566";
                 initiateCall("COLETIVO IMAGINÁRIO", "SALA 01");
 
             }
@@ -463,7 +472,7 @@ public class WalkieTalkieActivity extends AppCompatActivity {
                         }
                     }
                 }
-                sipAddress = "8205@172.16.100.251:5566";
+                sipAddress = "8206@172.16.100.251:5566";
                 initiateCall("PEREGRINO SEGUROS", "SALA 05");
 
             }
@@ -483,7 +492,7 @@ public class WalkieTalkieActivity extends AppCompatActivity {
                         }
                     }
                 }
-                sipAddress = "8206@172.16.100.251:5566";
+                sipAddress = "8205@172.16.100.251:5566";
                 initiateCall("VIVERO/COBALTO", "SALA 06");
             }
         });

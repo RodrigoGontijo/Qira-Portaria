@@ -41,9 +41,7 @@
         android:paddingBottom="2dp"
         android:text="COLETIVO IMAGINÁRIO"
         android:textColor="#FFFFF2"
-        android:textSize="18sp"
-
-        />
+        android:textSize="18sp" />
 
 
 </RelativeLayout>

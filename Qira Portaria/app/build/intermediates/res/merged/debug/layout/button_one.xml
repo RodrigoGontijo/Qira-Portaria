@@ -29,7 +29,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="75dp"
         android:includeFontPadding="false"
-        android:text="SALA 01"
+        android:text="SALA 011"
         android:textColor="@android:color/white"
         android:textSize="20sp" />
 

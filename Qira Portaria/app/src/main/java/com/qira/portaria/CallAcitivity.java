@@ -39,6 +39,7 @@ public class CallAcitivity extends AppCompatActivity {
     private int animationState;
     public Handler h = new Handler();
     private Animation animation;
+    private Bundle bundle;
 
 
     @Override
@@ -49,6 +50,9 @@ public class CallAcitivity extends AppCompatActivity {
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
         initiateViews();
         animationState = 1;
+
+        roomNumber.setText(getIntent().getExtras().getString("RoomNumber", "Error"));
+        roomName.setText(getIntent().getExtras().getString("RoomName", "Error"));
     }
 
     @Override
@@ -151,8 +155,10 @@ public class CallAcitivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent("finish_call");
                 sendBroadcast(intent);
+                finish();
             }
         });
+
 
     }
 
