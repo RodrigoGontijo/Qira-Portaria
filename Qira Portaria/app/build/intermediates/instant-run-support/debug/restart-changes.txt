@@ -1,0 +1,2 @@
+CHANGED,C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\transforms\instantRun\debug\folders\1\5\main\com\qira\portaria\WalkieTalkieActivity.class
+CHANGED,C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\transforms\instantRun\debug\folders\1\5\main\com\qira\portaria\WalkieTalkieActivity$5.class

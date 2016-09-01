@@ -109,13 +109,13 @@ public class WalkieTalkieActivity extends AppCompatActivity {
 
             SharedPreferences sharedPreferences = getSharedPreferences("settings", MODE_PRIVATE);
             SharedPreferences.Editor editor = sharedPreferences.edit();
-//            editor.putString("user", "8200");
-//            editor.putString("password", "@quaecoh6Ria@");
-//            editor.putString("domain", "172.16.100.251:5566");
+            editor.putString("user", "8200");
+            editor.putString("password", "@quaecoh6Ria@");
+            editor.putString("domain", "172.16.100.251:5566");
 
-            editor.putString("user", "8197");
-            editor.putString("password", "*Aabb44cc77!*");
-            editor.putString("domain", "192.168.1.200");
+//            editor.putString("user", "8197");
+//            editor.putString("password", "*Aabb44cc77!*");
+//            editor.putString("domain", "192.168.1.200");
             editor.apply();
 
 
@@ -285,7 +285,7 @@ public class WalkieTalkieActivity extends AppCompatActivity {
     }
 
 
-    public void initiateCall(final String roomName, final String roomNumber) {
+    public void initiateCall(final String roomName, final String companyName) {
         SharedPreferences sharedPreferencesState = getSharedPreferences("state", MODE_PRIVATE);
         final SharedPreferences.Editor editor = sharedPreferencesState.edit();
 
@@ -324,7 +324,7 @@ public class WalkieTalkieActivity extends AppCompatActivity {
 
             Intent intent = new Intent(getBaseContext(), CallAcitivity.class);
             intent.putExtra("RoomName", roomName);
-            intent.putExtra("RoomNumber", roomNumber);
+            intent.putExtra("CompanyName", companyName);
             startActivity(intent);
 
 
@@ -392,7 +392,7 @@ public class WalkieTalkieActivity extends AppCompatActivity {
                 }
                 //sipAddress = "8196@192.168.1.200";
                 sipAddress = "8201@172.16.100.251:5566";
-                initiateCall("COLETIVO IMAGINÁRIO", "SALA 01");
+                initiateCall("Sala Mallorca","COLETIVO IMAGINÁRIO");
 
             }
         });
@@ -413,7 +413,7 @@ public class WalkieTalkieActivity extends AppCompatActivity {
                     }
                 }
                 sipAddress = "8202@172.16.100.251:5566";
-                initiateCall("NAUWEB", "SALA 02");
+                initiateCall("Sala Formentera","NAUWEB" );
             }
         });
 
@@ -433,7 +433,7 @@ public class WalkieTalkieActivity extends AppCompatActivity {
                     }
                 }
                 sipAddress = "8203@172.16.100.251:5566";
-                initiateCall("COLETIVO CASA 3", "SALA 03");
+                initiateCall("Sala Ibiza","COLETIVO CASA3");
             }
         });
 
@@ -453,7 +453,7 @@ public class WalkieTalkieActivity extends AppCompatActivity {
                     }
                 }
                 sipAddress = "8204@172.16.100.251:5566";
-                initiateCall("PROVER SEGUROS", "SALA 04");
+                initiateCall("Sala Menorca","PROVER SEGURO");
             }
         });
 
@@ -473,7 +473,7 @@ public class WalkieTalkieActivity extends AppCompatActivity {
                     }
                 }
                 sipAddress = "8206@172.16.100.251:5566";
-                initiateCall("PEREGRINO SEGUROS", "SALA 05");
+                initiateCall("Sala Atlântida","PEREGRINO MUSIC");
 
             }
         });
@@ -493,7 +493,7 @@ public class WalkieTalkieActivity extends AppCompatActivity {
                     }
                 }
                 sipAddress = "8205@172.16.100.251:5566";
-                initiateCall("VIVERO/COBALTO", "SALA 06");
+                initiateCall("Sala Martinica","VIVERO / COBALTO");
             }
         });
 

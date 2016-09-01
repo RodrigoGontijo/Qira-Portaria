@@ -8,42 +8,44 @@
     android:background="@drawable/buttton_border">
 
     <RelativeLayout
-        android:layout_width="40dp"
-        android:layout_height="41dp"
+        android:layout_width="35dp"
+        android:layout_height="36dp"
         android:layout_centerVertical="true"
-        android:background="@drawable/circle_border">
+        android:background="@drawable/circle_border"
+        >
 
         <View
             android:id="@+id/circle"
-            android:layout_width="28dp"
-            android:layout_height="28dp"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
             android:background="@drawable/circle_button" />
     </RelativeLayout>
 
-
     <TextView
-        android:id="@+id/room1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="75dp"
-        android:includeFontPadding="false"
-        android:text="SALA 03"
-        android:textColor="@android:color/white"
-        android:textSize="20sp" />
-
-    <TextView
+        android:id="@+id/company_name_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignStart="@+id/room1"
-        android:layout_marginTop="22dp"
-        android:paddingBottom="2dp"
-        android:text="COLETIVO CASA 3"
+        android:text="COLETIVO CASA3"
         android:textColor="#FFFFF2"
-        android:textSize="18sp"
+        android:textSize="18sp" />
 
-        />
+
+    <TextView
+        android:id="@+id/room1"
+        android:layout_below="@+id/company_name_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="75dp"
+        android:paddingBottom="2dp"
+        android:includeFontPadding="false"
+        android:text="Sala Ibiza"
+        android:textColor="@android:color/white"
+        android:textSize="14sp" />
+
+
 
 
 </RelativeLayout>

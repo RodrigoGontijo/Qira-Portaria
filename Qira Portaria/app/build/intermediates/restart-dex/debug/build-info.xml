@@ -4,26 +4,42 @@
     api-level="22"
     density="hdpi"
     format="7"
-    timestamp="656586087957990"
-    token="3388707310861732496" >
+    timestamp="46722134076655"
+    token="3388707310861732496"
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="714" />
+        duration="447" />
     <task
         name="instant-run-dex"
-        duration="0" />
+        duration="451" />
     <task
         name="instant-run-transform"
-        duration="220" />
+        duration="79" />
     <task
         name="verifier"
-        duration="34" />
+        duration="16" />
 
     <artifact
-        location="C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\outputs\apk\app-debug.apk"
-        type="MAIN" />
+        location="C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\reload-dex\debug\classes.dex"
+        type="RELOAD_DEX" />
 
+    <build timestamp="44687420333169" >
+        <artifact
+            location="C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\outputs\apk\app-debug.apk"
+            type="MAIN" />
+    </build>
+    <build timestamp="44996654509620" >
+        <artifact
+            location="C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\res\resources-debug.ap_"
+            type="RESOURCES" />
+    </build>
+    <build timestamp="46540816827176" >
+        <artifact
+            location="C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
+            type="DEX" />
+    </build>
     <build timestamp="656586087957990" >
         <artifact
             location="C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\outputs\apk\app-debug.apk"
