@@ -1,18 +1,18 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/nauweb"
+    android:id="@+id/coletivo"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_marginBottom="4dp"
-    android:layout_marginLeft="15dp"
-    android:layout_marginRight="15dp"
+    android:layout_marginLeft="105dp"
+    android:layout_marginRight="105dp"
     android:background="@drawable/buttton_border">
 
     <RelativeLayout
         android:layout_width="35dp"
-        android:layout_height="36dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="4dp"
         android:layout_centerVertical="true"
-        android:background="@drawable/circle_border"
-        >
+        android:background="@drawable/circle_border">
 
         <View
             android:id="@+id/circle"
@@ -23,14 +23,7 @@
             android:background="@drawable/circle_button" />
     </RelativeLayout>
 
-    <TextView
-        android:id="@+id/company_name_1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/room1"
-        android:text="NAUWEB"
-        android:textColor="#FFFFF2"
-        android:textSize="18sp" />
+
 
 
     <TextView
@@ -39,11 +32,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="75dp"
+        android:layout_centerInParent="true"
         android:paddingBottom="2dp"
         android:includeFontPadding="false"
-        android:text="Sala Formentera"
+        android:text="101"
         android:textColor="@android:color/white"
-        android:textSize="14sp" />
+        android:textSize="30sp" />
 
 
 

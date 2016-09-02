@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/coletivo"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="4dp"
+    android:layout_marginLeft="25dp"
+    android:layout_marginRight="25dp"
+    android:background="@drawable/buttton_border">
+
+    <RelativeLayout
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="4dp"
+        android:layout_centerVertical="true"
+        android:background="@drawable/circle_border">
+
+        <View
+            android:id="@+id/circle"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/circle_button" />
+    </RelativeLayout>
+
+
+
+
+    <TextView
+        android:id="@+id/room1"
+        android:layout_below="@+id/company_name_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="75dp"
+        android:layout_centerInParent="true"
+        android:paddingBottom="2dp"
+        android:includeFontPadding="false"
+        android:text="PORTARIA"
+        android:textColor="@android:color/white"
+        android:textSize="30sp" />
+
+
+
+
+</RelativeLayout>

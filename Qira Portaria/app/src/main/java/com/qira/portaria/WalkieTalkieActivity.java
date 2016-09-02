@@ -351,7 +351,8 @@ public class WalkieTalkieActivity extends AppCompatActivity {
         ImageView logoSettings = (ImageView) findViewById(R.id.logo_settings);
 
         RelativeLayout company1 = (RelativeLayout) findViewById(R.id.coletivo);
-        RelativeLayout company2 = (RelativeLayout) findViewById(R.id.nauweb);
+        RelativeLayout company2 = (RelativeLayout) findViewById(R.id
+                .nauweb);
         RelativeLayout company3 = (RelativeLayout) findViewById(R.id.prover);
         RelativeLayout company4 = (RelativeLayout) findViewById(R.id.coletivo_casa);
         RelativeLayout company5 = (RelativeLayout) findViewById(R.id.peregrino);

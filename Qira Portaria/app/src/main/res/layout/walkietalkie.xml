@@ -1,34 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/mainlayout"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:layout_centerVertical="true"
     android:layout_gravity="center"
-    android:background="@color/colorPrimary"
-    android:gravity="center"
-    android:orientation="vertical"
     android:layout_marginTop="36dp"
-   >
+    android:background="@color/colorPrimary"
+    android:gravity="center">
+
     <TextView
+        android:id="@+id/info"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Escolha a sala que deseja chamar"
-        android:textSize="18sp"
         android:layout_marginBottom="10dp"
+        android:layout_marginTop="5dp"
+        android:text="Escolha a sala que deseja chamar"
         android:textColor="@android:color/white"
-        />
+        android:textSize="24sp" />
 
-    <include layout="@layout/button_one"/>
-    <include layout="@layout/button_two"/>
-    <include layout="@layout/button_three"/>
-    <include layout="@layout/button_four"/>
-    <include layout="@layout/button_five"/>
-    <include layout="@layout/button_six"/>
-
+    <RelativeLayout
+        android:id="@+id/button_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
 
 
+        <include
+            android:id="@+id/button_one_1"
+            layout="@layout/button_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="4dp"
+            android:layout_marginTop="4dp" />
 
-</LinearLayout>
+        <include
+            android:id="@+id/button_two"
+            layout="@layout/button_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="4dp"
+            android:layout_toRightOf="@+id/button_one_1" />
+
+        <include
+            android:id="@+id/button_three"
+            layout="@layout/button_three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button_one_1"
+            android:layout_marginRight="4dp" />
+
+        <include
+            android:id="@+id/button_four"
+            layout="@layout/button_four"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button_one_1"
+            android:layout_marginLeft="4dp"
+            android:layout_toRightOf="@id/button_three" />
+
+        <include
+            android:id="@+id/button_five"
+            layout="@layout/button_five"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button_four"
+            android:layout_marginRight="4dp" />
+
+        <include
+            android:id="@+id/button_one"
+            layout="@layout/button_six"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button_three"
+            android:layout_marginLeft="4dp"
+            android:layout_toRightOf="@+id/button_five" />
+    </RelativeLayout>
+
+    <include
+        android:id="@+id/button_one"
+        layout="@layout/button_lobby"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_container"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"/>
+
+
+</RelativeLayout>
 
