@@ -8,14 +8,6 @@
         android:minSdkVersion="15"
         android:targetSdkVersion="15" />
 
-    <uses-permission android:name="android.permission.USE_SIP" />
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.VIBRATE" />
-    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-    <uses-permission android:name="android.permission.WAKE_LOCK" />
-    <uses-permission android:name="android.permission.RECORD_AUDIO" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-
     <uses-feature
         android:name="android.hardware.sip.voip"
         android:required="true" />
@@ -25,6 +17,15 @@
     <uses-feature
         android:name="android.hardware.microphone"
         android:required="true" />
+    <uses-feature android:name="android.hardware.usb.accessory" />
+
+    <uses-permission android:name="android.permission.USE_SIP" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:name="com.android.tools.fd.runtime.BootstrapApplication"
@@ -48,6 +49,13 @@
             android:name="com.qira.portaria.WalkieTalkieActivity"
             android:configChanges="orientation|keyboardHidden"
             android:theme="@style/SuperCoolAppBarActivity" >
+            <intent-filter>
+                <action android:name="android.hardware.usb.action.USB_ACCESSORY_ATTACHED" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.hardware.usb.action.USB_ACCESSORY_ATTACHED"
+                android:resource="@xml/accessory_filter" />
         </activity>
         <activity
             android:name="com.qira.portaria.SipSettings"

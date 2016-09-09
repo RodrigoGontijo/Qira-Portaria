@@ -1,5 +1,5 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/coletivo"
+    android:id="@+id/peregrino"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_marginBottom="4dp"
@@ -35,7 +35,7 @@
         android:layout_centerInParent="true"
         android:paddingBottom="2dp"
         android:includeFontPadding="false"
-        android:text="101"
+        android:text="301"
         android:textColor="@android:color/white"
         android:textSize="30sp" />
 

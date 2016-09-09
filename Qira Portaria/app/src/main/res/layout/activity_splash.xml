@@ -11,7 +11,7 @@
         android:id="@+id/logo_splash"
         android:layout_width="match_parent"
         android:layout_height="240dp"
-        android:src="@drawable/logo_ilha" />
+        android:src="@drawable/logo_qira_branca" />
 
     <TextView
         android:layout_width="wrap_content"

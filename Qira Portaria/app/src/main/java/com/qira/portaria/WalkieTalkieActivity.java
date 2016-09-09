@@ -54,16 +54,25 @@ public class WalkieTalkieActivity extends AppCompatActivity {
     public SipManager manager = null;
     public SipProfile me = null;
     public SipAudioCall call = null;
-    ;
+
     public Toast toast;
     public IncomingCallReceiver callReceiver;
     public Handler h = new Handler();
     public int clicksOnLogo = 0;
     public int onresume = 0;
+    public FT311UARTInterface uartinterface;
+
+    int baudRate = 9600; /* baud rate */
+    byte stopBit = 1; /* 1:1stop bits, 2:2 stop bits */
+    byte dataBit= 8; /* 8:8bit, 7: 7bit */
+    byte parity = 0; /* 0: none, 1: odd, 2: even, 3: mark, 4: space */
+    byte flowControl = 0; /* 0:none, 1: flow control(CTS,RTS) */
 
 
     public boolean isRegistred;
 
+    private static final String AutoOnOffCmd = "021A000000000000000000000000000000001C00";
+    private static final String initializeCmd = "0288000000000000000000000000000000008A00";
     private static final int CALL_ADDRESS = 1;
     private static final int SET_AUTH_INFO = 2;
     private static final int UPDATE_SETTINGS_DIALOG = 3;
@@ -73,7 +82,6 @@ public class WalkieTalkieActivity extends AppCompatActivity {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
-
 
 
         super.onCreate(savedInstanceState);
@@ -89,12 +97,37 @@ public class WalkieTalkieActivity extends AppCompatActivity {
         callReceiver = new IncomingCallReceiver();
         this.registerReceiver(callReceiver, filter);
 
+
+
     }
 
 
     @Override
     public void onResume() {
         super.onResume();
+
+
+        uartinterface = new FT311UARTInterface(getApplicationContext());
+        uartinterface.SetConfig(baudRate,dataBit,stopBit,parity,flowControl);
+        int result = uartinterface.ResumeAccessory();
+        uartinterface.SetConfig(baudRate,dataBit,stopBit,parity,flowControl);
+
+
+        Toast toast;
+
+        if (result == 0) {
+            toast = Toast.makeText(this, "Request Ok", Toast.LENGTH_SHORT);
+
+        }
+        else if (result == 1) {
+            toast = Toast.makeText(this, "Error", Toast.LENGTH_SHORT);
+
+        }
+        else {
+            toast = Toast.makeText(this, "Error", Toast.LENGTH_SHORT);
+
+        }
+        toast.show();
 
         onresume++;
 
@@ -109,13 +142,13 @@ public class WalkieTalkieActivity extends AppCompatActivity {
 
             SharedPreferences sharedPreferences = getSharedPreferences("settings", MODE_PRIVATE);
             SharedPreferences.Editor editor = sharedPreferences.edit();
-            editor.putString("user", "8200");
-            editor.putString("password", "@quaecoh6Ria@");
-            editor.putString("domain", "172.16.100.251:5566");
+//            editor.putString("user", "8200");
+//            editor.putString("password", "@quaecoh6Ria@");
+//            editor.putString("domain", "172.16.100.251:5566");
 
-//            editor.putString("user", "8197");
-//            editor.putString("password", "*Aabb44cc77!*");
-//            editor.putString("domain", "192.168.1.200");
+            editor.putString("user", "8197");
+            editor.putString("password", "*Aabb44cc77!*");
+            editor.putString("domain", "192.168.1.200");
             editor.apply();
 
 
@@ -140,6 +173,27 @@ public class WalkieTalkieActivity extends AppCompatActivity {
         }
 
 
+
+            h.postDelayed(new Runnable() {
+                public void run() {
+                    writeSerialHex(initializeCmd);
+
+                }
+            }, 5000);
+
+
+
+
+
+        h.postDelayed(new Runnable() {
+            public void run() {
+                writeSerialHex(AutoOnOffCmd);
+            }
+        }, 7000);
+
+
+
+
     }
 
 
@@ -154,6 +208,7 @@ public class WalkieTalkieActivity extends AppCompatActivity {
     @Override
     public void onDestroy() {
         super.onDestroy();
+        uartinterface.DestroyAccessory(true,true);
         if (call != null) {
             call.close();
             callReceiver.kill();
@@ -201,6 +256,9 @@ public class WalkieTalkieActivity extends AppCompatActivity {
         if (manager == null) {
             return;
         }
+
+        if (isRegistred)
+            return;
 
         if (me != null) {
             closeLocalProfile();
@@ -350,13 +408,13 @@ public class WalkieTalkieActivity extends AppCompatActivity {
     private void initializeViews() {
         ImageView logoSettings = (ImageView) findViewById(R.id.logo_settings);
 
-        RelativeLayout company1 = (RelativeLayout) findViewById(R.id.coletivo);
-        RelativeLayout company2 = (RelativeLayout) findViewById(R.id
-                .nauweb);
-        RelativeLayout company3 = (RelativeLayout) findViewById(R.id.prover);
-        RelativeLayout company4 = (RelativeLayout) findViewById(R.id.coletivo_casa);
-        RelativeLayout company5 = (RelativeLayout) findViewById(R.id.peregrino);
-        RelativeLayout company6 = (RelativeLayout) findViewById(R.id.vivero);
+        View company1 = findViewById(R.id.button_one_1);
+        View company2 = findViewById(R.id.button_two);
+        View company3 = findViewById(R.id.button_three);
+        View company4 = findViewById(R.id.button_four);
+        View company5 = findViewById(R.id.button_five);
+        View company6 = findViewById(R.id.button_six);
+        View lobby = findViewById(R.id.button_lobby);
 
 
         assert logoSettings != null;
@@ -391,9 +449,9 @@ public class WalkieTalkieActivity extends AppCompatActivity {
                         }
                     }
                 }
-                //sipAddress = "8196@192.168.1.200";
-                sipAddress = "8201@172.16.100.251:5566";
-                initiateCall("Sala Mallorca","COLETIVO IMAGINÁRIO");
+                sipAddress = "8196@192.168.1.200";
+                //sipAddress = "8201@172.16.100.251:5566";
+                initiateCall("Família Silva", "APARTAMENTO 101");
 
             }
         });
@@ -414,7 +472,7 @@ public class WalkieTalkieActivity extends AppCompatActivity {
                     }
                 }
                 sipAddress = "8202@172.16.100.251:5566";
-                initiateCall("Sala Formentera","NAUWEB" );
+                initiateCall("Família Gontijo", "APARTAMENTO 102");
             }
         });
 
@@ -434,7 +492,7 @@ public class WalkieTalkieActivity extends AppCompatActivity {
                     }
                 }
                 sipAddress = "8203@172.16.100.251:5566";
-                initiateCall("Sala Ibiza","COLETIVO CASA3");
+                initiateCall("Família Carvalho", "APARTAMENTO 201");
             }
         });
 
@@ -454,7 +512,7 @@ public class WalkieTalkieActivity extends AppCompatActivity {
                     }
                 }
                 sipAddress = "8204@172.16.100.251:5566";
-                initiateCall("Sala Menorca","PROVER SEGURO");
+                initiateCall("Família Oliveira", "APARTAMENTO 202");
             }
         });
 
@@ -473,8 +531,9 @@ public class WalkieTalkieActivity extends AppCompatActivity {
                         }
                     }
                 }
-                sipAddress = "8206@172.16.100.251:5566";
-                initiateCall("Sala Atlântida","PEREGRINO MUSIC");
+
+                sipAddress = "8205@172.16.100.251:5566";
+                initiateCall("Família Fagundes", "APARTAMENTO 301");
 
             }
         });
@@ -493,8 +552,28 @@ public class WalkieTalkieActivity extends AppCompatActivity {
                         }
                     }
                 }
-                sipAddress = "8205@172.16.100.251:5566";
-                initiateCall("Sala Martinica","VIVERO / COBALTO");
+                sipAddress = "8206@172.16.100.251:5566";
+                initiateCall("Família Silva", "APARTAMENTO 302");
+            }
+        });
+
+
+        assert lobby != null;
+        lobby.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                callReceiver.kill();
+                if (call != null) {
+                    if (call.isInCall()) {
+                        try {
+                            call.endCall();
+                        } catch (SipException e) {
+                            e.printStackTrace();
+                        }
+                    }
+                }
+                sipAddress = "8207@172.16.100.251:5566";
+                initiateCall("", "PORTARIA");
             }
         });
 
@@ -512,4 +591,33 @@ public class WalkieTalkieActivity extends AppCompatActivity {
             }
         }, DELAY);
     }
+
+
+    private byte[] hexStringToByteArray(String s) {
+        int len = s.length();
+        byte[] data = new byte[len / 2];
+        for (int i = 0; i < len; i += 2) {
+            data[i / 2] = (byte) ((Character.digit(s.charAt(i), 16) << 4)
+                    + Character.digit(s.charAt(i + 1), 16));
+        }
+        return data;
+    }
+
+    private void writeSerialHex(final String data) {
+
+
+        if (uartinterface != null) {
+            byte[] buffer = hexStringToByteArray(data);
+            if (uartinterface.SendData(buffer.length, buffer) == 0) {
+                toast = Toast.makeText(this, "write Ok", Toast.LENGTH_SHORT);
+
+            } else {
+                toast = Toast.makeText(this, "write Error", Toast.LENGTH_SHORT);
+
+            }
+            toast.show();
+        }
+    }
+
+
 }

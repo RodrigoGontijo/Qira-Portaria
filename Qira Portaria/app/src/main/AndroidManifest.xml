@@ -3,8 +3,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.qira.portaria"
     android:versionCode="201"
-    android:versionName="2.1"
-    >
+    android:versionName="2.1">
+
+    <uses-sdk android:minSdkVersion="15" />
 
     <application
         android:hardwareAccelerated="true"
@@ -20,12 +21,24 @@
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
+
         </activity>
 
         <activity
             android:name=".WalkieTalkieActivity"
             android:configChanges="orientation|keyboardHidden"
             android:theme="@style/SuperCoolAppBarActivity">
+
+
+            <intent-filter>
+                <action android:name="android.hardware.usb.action.USB_ACCESSORY_ATTACHED" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.hardware.usb.action.USB_ACCESSORY_ATTACHED"
+                android:resource="@xml/accessory_filter" />
+
 
         </activity>
 
@@ -50,7 +63,6 @@
 
         </activity>
 
-
         <receiver
             android:name=".IncomingCallReceiver"
             android:label="Call Receiver" />
@@ -58,15 +70,6 @@
             android:name="io.fabric.ApiKey"
             android:value="c7c54aeec72041be6cfa2f90c1a46a0620061ba8" />
     </application>
-    <uses-sdk android:minSdkVersion="15" />
-
-    <uses-permission android:name="android.permission.USE_SIP" />
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.VIBRATE" />
-    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-    <uses-permission android:name="android.permission.WAKE_LOCK" />
-    <uses-permission android:name="android.permission.RECORD_AUDIO" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <uses-feature
         android:name="android.hardware.sip.voip"
@@ -77,4 +80,17 @@
     <uses-feature
         android:name="android.hardware.microphone"
         android:required="true" />
+
+    <uses-feature android:name="android.hardware.usb.accessory" />
+
+
+    <uses-permission android:name="android.permission.USE_SIP" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+
 </manifest>

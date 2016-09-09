@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="armeabi-v7a,armeabi"
+    api-level="22"
+    density="hdpi"
+    format="7"
+    timestamp="146079954977499"
+    token="3388707310861732496" >
+
+    <task
+        name="javac"
+        duration="591" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="757" />
+    <task
+        name="verifier"
+        duration="167" />
+
+    <artifact
+        location="C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\outputs\apk\app-debug.apk"
+        type="MAIN" />
+
+    <build timestamp="146079954977499" >
+        <artifact
+            location="C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\outputs\apk\app-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>

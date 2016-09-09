@@ -31,7 +31,7 @@
     <color name="button_material_dark">#ff5a595b</color>
     <color name="button_material_light">#ffd6d7d7</color>
     <color name="colorAccent">#FF4081</color>
-    <color name="colorPrimary">#385CAE</color>
+    <color name="colorPrimary">#262626</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="design_fab_shadow_end_color">@android:color/transparent</color>
     <color name="design_fab_shadow_mid_color">#14000000</color>
@@ -284,7 +284,7 @@
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="bottom_sheet_behavior" translatable="false">android.support.design.widget.BottomSheetBehavior</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
-    <string name="com.crashlytics.android.build_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">ec559c33-85ca-4bc1-8d5a-2046b2b81781</string>
+    <string name="com.crashlytics.android.build_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">8a6d4527-78bb-4e92-804e-64ebcf56a66c</string>
     <string name="contactAddress">SIP Address to contact</string>
     <string name="domain">domain</string>
     <string name="password">password</string>

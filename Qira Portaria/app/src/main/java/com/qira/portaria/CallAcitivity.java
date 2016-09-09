@@ -58,26 +58,26 @@ public class CallAcitivity extends AppCompatActivity {
         companyName.setText(getIntent().getExtras().getString("CompanyName", "Error"));
         roomName.setText(getIntent().getExtras().getString("RoomName", "Error"));
 
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN) {
-            if (roomName.getText().equals("Sala Mallorca")) {
-                logo.setBackground(ContextCompat.getDrawable(this, R.drawable.ilha_01));
-            }
-            if (roomName.getText().equals("Sala Formentera")) {
-                logo.setBackground(ContextCompat.getDrawable(this, R.drawable.ilha_02));
-            }
-            if (roomName.getText().equals("Sala Ibiza")) {
-                logo.setBackground(ContextCompat.getDrawable(this, R.drawable.ilha_03));
-            }
-            if (roomName.getText().equals("Sala Menorca")) {
-                logo.setBackground(ContextCompat.getDrawable(this, R.drawable.ilha_04));
-            }
-            if (roomName.getText().equals("Sala Atlântida")) {
-                logo.setBackground(ContextCompat.getDrawable(this, R.drawable.ilha_05));
-            }
-            if (roomName.getText().equals("Sala Martinica")) {
-                logo.setBackground(ContextCompat.getDrawable(this, R.drawable.ilha_06));
-            }
-        }
+//        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN) {
+//            if (roomName.getText().equals("Sala Mallorca")) {
+//                logo.setBackground(ContextCompat.getDrawable(this, R.drawable.ilha_01));
+//            }
+//            if (roomName.getText().equals("Sala Formentera")) {
+//                logo.setBackground(ContextCompat.getDrawable(this, R.drawable.ilha_02));
+//            }
+//            if (roomName.getText().equals("Sala Ibiza")) {
+//                logo.setBackground(ContextCompat.getDrawable(this, R.drawable.ilha_03));
+//            }
+//            if (roomName.getText().equals("Sala Menorca")) {
+//                logo.setBackground(ContextCompat.getDrawable(this, R.drawable.ilha_04));
+//            }
+//            if (roomName.getText().equals("Sala Atlântida")) {
+//                logo.setBackground(ContextCompat.getDrawable(this, R.drawable.ilha_05));
+//            }
+//            if (roomName.getText().equals("Sala Martinica")) {
+//                logo.setBackground(ContextCompat.getDrawable(this, R.drawable.ilha_06));
+//            }
+//        }
 
     }
 

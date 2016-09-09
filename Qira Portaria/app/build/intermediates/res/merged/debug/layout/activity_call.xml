@@ -8,7 +8,8 @@
     <ImageView
         android:id="@+id/logo_call"
         android:layout_width="match_parent"
-        android:layout_height="180dp"
+        android:layout_height="220dp"
+        android:background="@drawable/logo_qira_branca"
       />
 
 
@@ -19,7 +20,7 @@
         android:layout_below="@+id/logo_call"
         android:layout_marginTop="12dp"
         android:gravity="center"
-        android:text="SALA 06"
+        android:text="Apartamento 302"
         android:textColor="@android:color/white"
         android:textSize="26sp" />
 
@@ -31,7 +32,7 @@
         android:layout_below="@+id/room_number"
         android:layout_marginTop="8dp"
         android:gravity="center"
-        android:text="Vivero Arquitetura"
+        android:text="Família Silva"
         android:textColor="@android:color/white"
         android:textSize="18sp" />
 

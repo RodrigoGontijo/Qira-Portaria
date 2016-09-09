@@ -13,13 +13,14 @@
 
     <TextView
         android:id="@+id/info"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
+        android:layout_marginBottom="18dp"
         android:layout_marginTop="5dp"
-        android:text="Escolha a sala que deseja chamar"
+        android:gravity="center"
+        android:text="Escolha quem deseja chamar"
         android:textColor="@android:color/white"
-        android:textSize="24sp" />
+        android:textSize="22sp" />
 
     <RelativeLayout
         android:id="@+id/button_container"
@@ -48,6 +49,7 @@
         <include
             android:id="@+id/button_three"
             layout="@layout/button_three"
+            android:layout_marginTop="2dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/button_one_1"
@@ -57,6 +59,7 @@
             android:id="@+id/button_four"
             layout="@layout/button_four"
             android:layout_width="wrap_content"
+            android:layout_marginTop="2dp"
             android:layout_height="wrap_content"
             android:layout_below="@+id/button_one_1"
             android:layout_marginLeft="4dp"
@@ -65,15 +68,17 @@
         <include
             android:id="@+id/button_five"
             layout="@layout/button_five"
+            android:layout_marginTop="2dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/button_four"
             android:layout_marginRight="4dp" />
 
         <include
-            android:id="@+id/button_one"
+            android:id="@+id/button_six"
             layout="@layout/button_six"
             android:layout_width="wrap_content"
+            android:layout_marginTop="2dp"
             android:layout_height="wrap_content"
             android:layout_below="@+id/button_three"
             android:layout_marginLeft="4dp"
@@ -81,7 +86,7 @@
     </RelativeLayout>
 
     <include
-        android:id="@+id/button_one"
+        android:id="@+id/button_lobby"
         layout="@layout/button_lobby"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

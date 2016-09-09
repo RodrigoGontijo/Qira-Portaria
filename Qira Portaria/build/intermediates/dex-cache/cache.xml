@@ -5,14 +5,14 @@
         jar="C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         revision="23.0.3"
-        sha1="feff93b35b47bf2ab585d9d68864e274cc6121a8">
+        sha1="1477c5fc38b5d53c83ca29885dba6db0fbb69edb">
         <dex dex="C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_24ce397bc888c30c62748edc0e08974a8bbc48ee\classes.dex" />
     </item>
     <item
         jar="C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         revision="23.0.3"
-        sha1="15e0080fea0f99116d76fc4b366aa722a48829e0">
+        sha1="58ee0c928ddda8e6b3bcf6ab526427568f8028d0">
         <dex dex="C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_43eeadb9dfedf13da120b9176861aa0ba40b0555\classes.dex" />
     </item>
     <item
@@ -23,18 +23,18 @@
         <dex dex="C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.2.1_e75468d86b830a751406edb0f7b668180b54d348\classes.dex" />
     </item>
     <item
-        jar="C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.github.markushi\circlebutton\1.1\jars\classes.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="ebe3b1f14fa79ba3cd1588acda4e6517ee9fe611">
-        <dex dex="C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.github.markushi-circlebutton-1.1_b0e8c950fc61b0a81581047c04adc9053e1d7fa8\classes.dex" />
-    </item>
-    <item
         jar="C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.1\jars\classes.jar"
         jumboMode="true"
         revision="23.0.3"
         sha1="3469cb457f10f74c28cbc05f069b6c894f6cbdd0">
         <dex dex="C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.2.1_2a0c0ced576e1cc89e98d81e1edb14b596d5125a\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.github.markushi\circlebutton\1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ebe3b1f14fa79ba3cd1588acda4e6517ee9fe611">
+        <dex dex="C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.github.markushi-circlebutton-1.1_b0e8c950fc61b0a81581047c04adc9053e1d7fa8\classes.dex" />
     </item>
     <item
         jar="C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\jars\classes.jar"
