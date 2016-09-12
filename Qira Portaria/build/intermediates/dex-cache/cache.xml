@@ -5,14 +5,14 @@
         jar="C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         revision="23.0.3"
-        sha1="1477c5fc38b5d53c83ca29885dba6db0fbb69edb">
+        sha1="a016eb25473d39844fad7241dd290ec01919e866">
         <dex dex="C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_24ce397bc888c30c62748edc0e08974a8bbc48ee\classes.dex" />
     </item>
     <item
         jar="C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         revision="23.0.3"
-        sha1="58ee0c928ddda8e6b3bcf6ab526427568f8028d0">
+        sha1="55b32b6fd7ae0f83e7e69d018be3f3e8325d8540">
         <dex dex="C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_43eeadb9dfedf13da120b9176861aa0ba40b0555\classes.dex" />
     </item>
     <item

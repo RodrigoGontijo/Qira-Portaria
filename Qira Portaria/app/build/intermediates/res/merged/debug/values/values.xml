@@ -284,7 +284,7 @@
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="bottom_sheet_behavior" translatable="false">android.support.design.widget.BottomSheetBehavior</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
-    <string name="com.crashlytics.android.build_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">8a6d4527-78bb-4e92-804e-64ebcf56a66c</string>
+    <string name="com.crashlytics.android.build_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">f9a70d5e-fcaa-4ce2-880a-9c288a5ec03b</string>
     <string name="contactAddress">SIP Address to contact</string>
     <string name="domain">domain</string>
     <string name="password">password</string>

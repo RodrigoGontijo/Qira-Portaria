@@ -4,27 +4,23 @@
     api-level="22"
     density="hdpi"
     format="7"
-    timestamp="146079954977499"
+    timestamp="1494829251027"
     token="3388707310861732496" >
 
     <task
         name="javac"
-        duration="591" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="757" />
+        duration="0" />
     <task
         name="verifier"
-        duration="167" />
+        duration="0" />
 
-    <artifact
-        location="C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\outputs\apk\app-debug.apk"
-        type="MAIN" />
-
-    <build timestamp="146079954977499" >
+    <build timestamp="234022514719022" >
         <artifact
             location="C:\Users\Rodrigo\Desktop\QiraPortaria\Qira Portaria\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />

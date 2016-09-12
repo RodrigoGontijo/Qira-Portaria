@@ -174,25 +174,18 @@ public class WalkieTalkieActivity extends AppCompatActivity {
 
 
 
-            h.postDelayed(new Runnable() {
+        h.postDelayed(new Runnable() {
                 public void run() {
                     writeSerialHex(initializeCmd);
 
                 }
             }, 5000);
 
-
-
-
-
         h.postDelayed(new Runnable() {
             public void run() {
                 writeSerialHex(AutoOnOffCmd);
             }
         }, 7000);
-
-
-
 
     }
 
@@ -593,7 +586,7 @@ public class WalkieTalkieActivity extends AppCompatActivity {
     }
 
 
-    private byte[] hexStringToByteArray(String s) {
+    public byte[] hexStringToByteArray(String s) {
         int len = s.length();
         byte[] data = new byte[len / 2];
         for (int i = 0; i < len; i += 2) {
@@ -603,7 +596,7 @@ public class WalkieTalkieActivity extends AppCompatActivity {
         return data;
     }
 
-    private void writeSerialHex(final String data) {
+    public void writeSerialHex(final String data) {
 
 
         if (uartinterface != null) {

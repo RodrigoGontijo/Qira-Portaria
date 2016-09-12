@@ -39,6 +39,7 @@ public class IncomingCallReceiver extends BroadcastReceiver {
     private DatagramSocket socket;
 
 
+
     /**
      * Processes the incoming call, answers it, and hands it over to the
      * WalkieTalkieActivity.
@@ -77,7 +78,7 @@ public class IncomingCallReceiver extends BroadcastReceiver {
             wtActivity.call = incomingCall;
 
 
-            run(incomingCall);
+            run(incomingCall,wtActivity);
             //wtActivity.updateStatus(incomingCall);
 
 
@@ -94,7 +95,7 @@ public class IncomingCallReceiver extends BroadcastReceiver {
     }
 
 
-    public void run(final SipAudioCall sipAudioCall) {
+    public void run(final SipAudioCall sipAudioCall, final WalkieTalkieActivity walkieTalkieActivity) {
         final Thread thread = new Thread(new Runnable() {
             @Override
             public void run() {
@@ -105,7 +106,7 @@ public class IncomingCallReceiver extends BroadcastReceiver {
 
                     socket = new DatagramSocket(null);
                     socket.setReuseAddress(true);
-                    socket.bind(new InetSocketAddress(15000));
+                    socket.bind(new InetSocketAddress(55056));
                     socket.setBroadcast(true);
 
 
@@ -118,6 +119,7 @@ public class IncomingCallReceiver extends BroadcastReceiver {
                                 message = new String(lmessage, 0, packet.getLength());
                                 lastMessage = message;
                                 Log.d("Recebeu:", message);
+                                walkieTalkieActivity.writeSerialHex("021A000000000000000000000000000000001C00");
                             } else {
                                 kill();
                                 sipAudioCall.endCall();
